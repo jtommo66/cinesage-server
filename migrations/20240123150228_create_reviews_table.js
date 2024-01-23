@@ -18,6 +18,7 @@ exports.up = function (knex) {
       .references("user.id")
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
+    table.integer("rating").notNullable();
   });
 };
 
