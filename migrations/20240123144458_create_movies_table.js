@@ -26,6 +26,7 @@ exports.up = function (knex) {
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
     table.integer("trailer").notNullable();
+    table.string("synopsis").notNullable();
   });
 };
 

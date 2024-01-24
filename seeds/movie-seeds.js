@@ -13,6 +13,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 1,
       trailer: "https://www.youtube.com/watch?v=LIfcaZ4pC-4",
+      synopsis: "",
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 5,
       trailer: "https://www.youtube.com/watch?v=4eaZ_48ZYog",
+      synopsis: "",
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ exports.seed = async function (knex) {
       genre_id: 3,
       keyword_id: 7,
       trailer: "https://www.youtube.com/watch?v=hSxLUd8aly4",
+      synopsis: "",
     },
     {
       id: 4,
@@ -40,6 +43,7 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 8,
       trailer: "https://www.youtube.com/watch?v=vayksn4Y93A&t=43s",
+      synopsis: "",
     },
     {
       id: 5,
@@ -49,6 +53,7 @@ exports.seed = async function (knex) {
       genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=7kSuas6mRpk",
+      synopsis: "",
     },
     {
       id: 6,
@@ -58,6 +63,7 @@ exports.seed = async function (knex) {
       genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=WTt8cCIvGYI",
+      synopsis: "",
     },
     {
       id: 7,
@@ -67,6 +73,7 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=aStYWD25fAQ",
+      synopsis: "",
     },
     {
       id: 8,
@@ -76,6 +83,7 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=Y4neBR0h39c",
+      synopsis: "",
     },
     {
       id: 9,
@@ -85,6 +93,7 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
+      synopsis: "",
     },
     {
       id: 10,
@@ -94,6 +103,7 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=38A__WT3-o0",
+      synopsis: "",
     },
     {
       id: 11,
@@ -103,6 +113,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=ayTnvVpj9t4",
+      synopsis: "",
     },
     {
       id: 12,
@@ -112,6 +123,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      synopsis: "",
     },
     {
       id: 13,
@@ -121,6 +133,7 @@ exports.seed = async function (knex) {
       genre_id: 1,
       keyword_id: 18,
       trailer: "https://www.youtube.com/watch?v=1Vnghdsjmd0",
+      synopsis: "",
     },
     {
       id: 14,
@@ -130,6 +143,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=1Fg5iWmQjwk&t=41s",
+      synopsis: "",
     },
     {
       id: 15,
@@ -139,6 +153,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=TcPk2p0Zaw4",
+      synopsis: "",
     },
     {
       id: 16,
@@ -148,6 +163,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 23,
       trailer: "https://www.youtube.com/watch?v=dt__kig8PVU&t=90s",
+      synopsis: "",
     },
     {
       id: 17,
@@ -157,6 +173,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 22,
       trailer: "https://www.youtube.com/watch?v=aO1bYukdvLI",
+      synopsis: "",
     },
     {
       id: 18,
@@ -166,6 +183,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 20,
       trailer: "https://www.youtube.com/watch?v=k98Afd7Nf3Y",
+      synopsis: "",
     },
     {
       id: 19,
@@ -175,6 +193,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=CiTllYeJc48&t=17s",
+      synopsis: "",
     },
     {
       id: 20,
@@ -184,6 +203,7 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 34,
       trailer: "https://www.youtube.com/watch?v=E9eAshaPvYw",
+      synopsis: "",
     },
     {
       id: 21,
@@ -193,6 +213,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=UBUfCL_tvro",
+      synopsis: "",
     },
     {
       id: 22,
@@ -202,6 +223,7 @@ exports.seed = async function (knex) {
       genre_id: 3,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=FF_rYNupPwg",
+      synopsis: "",
     },
     {
       id: 23,
@@ -211,6 +233,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=g4Hbz2jLxvQ&t=4s",
+      synopsis: "",
     },
     {
       id: 24,
@@ -220,6 +243,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=shW9i6k8cB0",
+      synopsis: "",
     },
     {
       id: 25,
@@ -229,6 +253,7 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=jsHR77oQKEY",
+      synopsis: "",
     },
     {
       id: 26,
@@ -238,6 +263,7 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=p-gG2qo_l_A",
+      synopsis: "",
     },
     {
       id: 27,
@@ -247,6 +273,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 27,
       trailer: "https://www.youtube.com/watch?v=Jit3YhGx5pU",
+      synopsis: "",
     },
     {
       id: 28,
@@ -256,6 +283,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 28,
       trailer: "https://www.youtube.com/watch?v=uRu3zLOJN2c",
+      synopsis: "",
     },
     {
       id: 29,
@@ -265,6 +293,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 29,
       trailer: "https://www.youtube.com/watch?v=-4QPVo0UIzc",
+      synopsis: "",
     },
     {
       id: 30,
@@ -274,6 +303,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=mgygUwPJvYk",
+      synopsis: "",
     },
     {
       id: 31,
@@ -283,6 +313,7 @@ exports.seed = async function (knex) {
       genre_id: 7,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=0IOsk2Vlc4o",
+      synopsis: "",
     },
     {
       id: 32,
@@ -292,6 +323,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=v-PjgYDrg70",
+      synopsis: "",
     },
     {
       id: 33,
@@ -301,6 +333,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=t0bxljESZ5U",
+      synopsis: "",
     },
     {
       id: 34,
@@ -310,6 +343,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=ZZv1vki4ou4",
+      synopsis: "",
     },
     {
       id: 35,
@@ -319,6 +353,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 21,
       trailer: "https://www.youtube.com/watch?v=qZefKaANfe0",
+      synopsis: "",
     },
     {
       id: 36,
@@ -328,6 +363,7 @@ exports.seed = async function (knex) {
       genre_id: 5,
       keyword_id: 9,
       trailer: "https://www.youtube.com/watch?v=KBiOF3y1W0Y",
+      synopsis: "",
     },
     {
       id: 37,
@@ -337,6 +373,7 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=2ilzidi_J8Q",
+      synopsis: "",
     },
     {
       id: 38,
@@ -346,6 +383,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=iszwuX1AK6A",
+      synopsis: "",
     },
     {
       id: 39,
@@ -355,6 +393,7 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=v8yrZSkKxTA",
+      synopsis: "",
     },
     {
       id: 40,
@@ -364,6 +403,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=CGbgaHoapFM",
+      synopsis: "",
     },
     {
       id: 41,
@@ -373,6 +413,7 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=QxrQ6BaijAY",
+      synopsis: "",
     },
   ]);
 };
