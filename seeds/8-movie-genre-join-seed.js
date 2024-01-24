@@ -4,8 +4,8 @@
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex("table_name").del();
-  await knex("table_name").insert([
+  await knex("movie_genre").del();
+  await knex("movie_genre").insert([
     {
       movie_id: 1,
       genre_id: 1,

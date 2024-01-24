@@ -153,5 +153,9 @@ exports.seed = async function (knex) {
       id: 37,
       keyword: "Music",
     },
+    {
+      id: 38,
+      keyword: "Gripping",
+    },
   ]);
 };

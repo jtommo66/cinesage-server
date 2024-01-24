@@ -3,18 +3,19 @@
  * @returns { Promise<void> }
  */
 exports.up = function (knex) {
-  return knex.schema.createTable("movie", (table) => {
-    table.increments("id").primary();
-    table.string("title").notNullable();
-    table.string("image").notNullable();
+  return knex.schema.createTable("movie_director", (table) => {
+    table
+      .integer("movie_id")
+      .unsigned()
+      .references("movie.id")
+      .onUpdate("CASCADE")
+      .onDelete("CASCADE");
     table
       .integer("director_id")
       .unsigned()
       .references("director.id")
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
-    table.string("trailer").notNullable();
-    table.string("synopsis").notNullable();
   });
 };
 
@@ -23,5 +24,5 @@ exports.up = function (knex) {
  * @returns { Promise<void> }
  */
 exports.down = function (knex) {
-  return knex.schema.dropTable("movie");
+  return knex.schema.dropTable("movie_director");
 };

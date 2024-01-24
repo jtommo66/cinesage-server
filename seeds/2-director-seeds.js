@@ -27,11 +27,11 @@ exports.seed = async function (knex) {
     },
     {
       id: 6,
-      name: "The Coen Brothers",
+      name: "Joel Coen",
     },
     {
       id: 7,
-      name: "Bong Joon-ho",
+      name: "Ethan Coen",
     },
     {
       id: 8,
@@ -112,6 +112,26 @@ exports.seed = async function (knex) {
     {
       id: 27,
       name: "Dan Scanlon",
+    },
+    {
+      id: 28,
+      name: "Bong Joon-ho",
+    },
+    {
+      id: 29,
+      name: "Peter Ramsey",
+    },
+    {
+      id: 30,
+      name: "Bob Persichetti",
+    },
+    {
+      id: 31,
+      name: "Justin K. Thompson",
+    },
+    {
+      id: 32,
+      name: "Kemp Powers",
     },
   ]);
 };
