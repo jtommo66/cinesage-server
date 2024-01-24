@@ -13,7 +13,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 1,
       trailer: "https://www.youtube.com/watch?v=LIfcaZ4pC-4",
-      synopsis: "",
+      synopsis:
+        "The uneventful, aimless lives of a London electronics salesman and his layabout roommate are disrupted by the zombie apocalypse.",
     },
     {
       id: 2,
@@ -23,7 +24,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 5,
       trailer: "https://www.youtube.com/watch?v=4eaZ_48ZYog",
-      synopsis: "",
+      synopsis:
+        "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
     },
     {
       id: 3,
@@ -33,7 +35,8 @@ exports.seed = async function (knex) {
       genre_id: 3,
       keyword_id: 7,
       trailer: "https://www.youtube.com/watch?v=hSxLUd8aly4",
-      synopsis: "",
+      synopsis:
+        "Mr. Bean wins a trip to Cannes where he unwittingly separates a young boy from his father and must help the two reunite. On the way he discovers France, bicycling, and true love.",
     },
     {
       id: 4,
@@ -43,7 +46,8 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 8,
       trailer: "https://www.youtube.com/watch?v=vayksn4Y93A&t=43s",
-      synopsis: "",
+      synopsis:
+        "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
     },
     {
       id: 5,
@@ -53,7 +57,8 @@ exports.seed = async function (knex) {
       genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=7kSuas6mRpk",
-      synopsis: "",
+      synopsis:
+        "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
     },
     {
       id: 6,
@@ -63,7 +68,8 @@ exports.seed = async function (knex) {
       genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=WTt8cCIvGYI",
-      synopsis: "",
+      synopsis:
+        "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle.",
     },
     {
       id: 7,
@@ -73,7 +79,8 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=aStYWD25fAQ",
-      synopsis: "",
+      synopsis:
+        "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
     },
     {
       id: 8,
@@ -83,7 +90,8 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=Y4neBR0h39c",
-      synopsis: "",
+      synopsis:
+        "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
     },
     {
       id: 9,
@@ -93,7 +101,8 @@ exports.seed = async function (knex) {
       genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
-      synopsis: "",
+      synopsis:
+        "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
     },
     {
       id: 10,
@@ -103,7 +112,8 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=38A__WT3-o0",
-      synopsis: "",
+      synopsis:
+        "While out hunting, Llewelyn finds the grisly aftermath of a drug deal. Though he knows better, he cannot resist the cash left behind and takes it. The hunter becomes the hunted when a merciless killer named Chigurh picks up his trail.",
     },
     {
       id: 11,
@@ -113,7 +123,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=ayTnvVpj9t4",
-      synopsis: "",
+      synopsis:
+        "A skilled London police officer, after irritating superiors with his embarrassing effectiveness, is transferred to a village where the easygoing officers object to his fervor for regulations, as a string of grisly murders strikes the town.",
     },
     {
       id: 12,
@@ -123,7 +134,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=5xH0HfJHsaY",
-      synopsis: "",
+      synopsis:
+        "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
     },
     {
       id: 13,
@@ -133,7 +145,8 @@ exports.seed = async function (knex) {
       genre_id: 1,
       keyword_id: 18,
       trailer: "https://www.youtube.com/watch?v=1Vnghdsjmd0",
-      synopsis: "",
+      synopsis:
+        "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
     },
     {
       id: 14,
@@ -143,7 +156,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=1Fg5iWmQjwk&t=41s",
-      synopsis: "",
+      synopsis:
+        "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
     },
     {
       id: 15,
@@ -153,7 +167,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=TcPk2p0Zaw4",
-      synopsis: "",
+      synopsis:
+        "A love letter to journalists set in an outpost of an American newspaper in a fictional twentieth century French city that brings to life a collection of stories published in The French Dispatch Magazine.",
     },
     {
       id: 16,
@@ -163,7 +178,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 23,
       trailer: "https://www.youtube.com/watch?v=dt__kig8PVU&t=90s",
-      synopsis: "",
+      synopsis:
+        "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
     },
     {
       id: 17,
@@ -173,7 +189,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 22,
       trailer: "https://www.youtube.com/watch?v=aO1bYukdvLI",
-      synopsis: "",
+      synopsis:
+        "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
     },
     {
       id: 18,
@@ -183,7 +200,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 20,
       trailer: "https://www.youtube.com/watch?v=k98Afd7Nf3Y",
-      synopsis: "",
+      synopsis:
+        "A cash-strapped documentary maker decides to make his newest documentary about a mollusk shell he finds living in his Airbnb with his friends.",
     },
     {
       id: 19,
@@ -193,7 +211,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=CiTllYeJc48&t=17s",
-      synopsis: "",
+      synopsis:
+        "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades.",
     },
     {
       id: 20,
@@ -203,7 +222,8 @@ exports.seed = async function (knex) {
       genre_id: 2,
       keyword_id: 34,
       trailer: "https://www.youtube.com/watch?v=E9eAshaPvYw",
-      synopsis: "",
+      synopsis:
+        "Moscow, 1953. After being in power for nearly 30 years, Soviet dictator, Joseph Vissarionovich Stalin, takes ill and quickly dies. Now the members of the Council of Ministers scramble for power.",
     },
     {
       id: 21,
@@ -213,7 +233,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=UBUfCL_tvro",
-      synopsis: "",
+      synopsis:
+        "Enter the relentless pressure of a restaurant kitchen as a head chef wrangles his team on the busiest day of the year.",
     },
     {
       id: 22,
@@ -223,7 +244,8 @@ exports.seed = async function (knex) {
       genre_id: 3,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=FF_rYNupPwg",
-      synopsis: "",
+      synopsis:
+        "A head chef quits his restaurant job and buys a food truck in an effort to reclaim his creative promise, while piecing back together his estranged family.",
     },
     {
       id: 23,
@@ -233,7 +255,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=g4Hbz2jLxvQ&t=4s",
-      synopsis: "",
+      synopsis:
+        "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
     },
     {
       id: 24,
@@ -243,7 +266,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=shW9i6k8cB0",
-      synopsis: "",
+      synopsis:
+        "Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
     },
     {
       id: 25,
@@ -253,7 +277,8 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=jsHR77oQKEY",
-      synopsis: "",
+      synopsis:
+        "A struggling screenwriter inadvertently becomes entangled in the Los Angeles criminal underworld after his oddball friends kidnap a gangster's beloved Shih Tzu.",
     },
     {
       id: 26,
@@ -263,7 +288,8 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=p-gG2qo_l_A",
-      synopsis: "",
+      synopsis:
+        "After a job gone wrong, hitman Ray and his partner await orders from their ruthless boss in Bruges, Belgium, the last place in the world Ray wants to be.",
     },
     {
       id: 27,
@@ -273,7 +299,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 27,
       trailer: "https://www.youtube.com/watch?v=Jit3YhGx5pU",
-      synopsis: "",
+      synopsis:
+        "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
     },
     {
       id: 28,
@@ -283,7 +310,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 28,
       trailer: "https://www.youtube.com/watch?v=uRu3zLOJN2c",
-      synopsis: "",
+      synopsis:
+        "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
     },
     {
       id: 29,
@@ -293,7 +321,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 29,
       trailer: "https://www.youtube.com/watch?v=-4QPVo0UIzc",
-      synopsis: "",
+      synopsis:
+        "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
     },
     {
       id: 30,
@@ -303,7 +332,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=mgygUwPJvYk",
-      synopsis: "",
+      synopsis:
+        "The Knight Jean de Carrouges must settle the dispute over his wife Marguerite by challenging his former friend to a duel to the death.",
     },
     {
       id: 31,
@@ -313,7 +343,8 @@ exports.seed = async function (knex) {
       genre_id: 7,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=0IOsk2Vlc4o",
-      synopsis: "",
+      synopsis:
+        "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
     },
     {
       id: 32,
@@ -323,7 +354,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=v-PjgYDrg70",
-      synopsis: "",
+      synopsis:
+        "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
     },
     {
       id: 33,
@@ -333,7 +365,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=t0bxljESZ5U",
-      synopsis: "",
+      synopsis:
+        "When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property with his roundup gang Jessie, Prospector, and Bullseye.",
     },
     {
       id: 34,
@@ -343,7 +376,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=ZZv1vki4ou4",
-      synopsis: "",
+      synopsis:
+        "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
     },
     {
       id: 35,
@@ -353,7 +387,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 21,
       trailer: "https://www.youtube.com/watch?v=qZefKaANfe0",
-      synopsis: "",
+      synopsis:
+        "A young boy named Kubo must locate a magical suit of armour worn by his late father in order to defeat a vengeful spirit from the past.",
     },
     {
       id: 36,
@@ -363,7 +398,8 @@ exports.seed = async function (knex) {
       genre_id: 5,
       keyword_id: 9,
       trailer: "https://www.youtube.com/watch?v=KBiOF3y1W0Y",
-      synopsis: "",
+      synopsis:
+        "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver.",
     },
     {
       id: 37,
@@ -373,7 +409,8 @@ exports.seed = async function (knex) {
       genre_id: 10,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=2ilzidi_J8Q",
-      synopsis: "",
+      synopsis:
+        "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
     },
     {
       id: 38,
@@ -383,7 +420,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=iszwuX1AK6A",
-      synopsis: "",
+      synopsis:
+        "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
     },
     {
       id: 39,
@@ -393,7 +431,8 @@ exports.seed = async function (knex) {
       genre_id: 4,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=v8yrZSkKxTA",
-      synopsis: "",
+      synopsis:
+        "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.",
     },
     {
       id: 40,
@@ -403,7 +442,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=CGbgaHoapFM",
-      synopsis: "",
+      synopsis:
+        "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
     },
     {
       id: 41,
@@ -413,7 +453,8 @@ exports.seed = async function (knex) {
       genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=QxrQ6BaijAY",
-      synopsis: "",
+      synopsis:
+        "A look at the relationship between Mike Wazowski (Billy Crystal) and James P. Sully Sullivan (John Goodman) during their days at Monsters University, when they weren't necessarily the best of friends.",
     },
   ]);
 };
