@@ -25,7 +25,7 @@ exports.up = function (knex) {
       .references("keyword.id")
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
-    table.integer("trailer").notNullable();
+    table.string("trailer").notNullable();
     table.string("synopsis").notNullable();
   });
 };

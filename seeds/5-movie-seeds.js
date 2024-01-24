@@ -3,8 +3,8 @@
  * @returns { Promise<void> }
  */
 exports.seed = async function (knex) {
-  await knex("table_name").del();
-  await knex("table_name").insert([
+  await knex("movie").del();
+  await knex("movie").insert([
     {
       id: 1,
       title: "Shaun of the Dead",

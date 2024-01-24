@@ -3,8 +3,8 @@
  * @returns { Promise<void> }
  */
 exports.seed = async function (knex) {
-  await knex("movie").del();
-  await knex("movie").insert([
+  await knex("director").del();
+  await knex("director").insert([
     {
       id: 1,
       name: "Edgar Wright",
