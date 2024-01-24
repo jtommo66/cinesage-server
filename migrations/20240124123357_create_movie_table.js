@@ -14,12 +14,6 @@ exports.up = function (knex) {
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
     table
-      .integer("genre_id")
-      .unsigned()
-      .references("genre.id")
-      .onUpdate("CASCADE")
-      .onDelete("CASCADE");
-    table
       .integer("keyword_id")
       .unsigned()
       .references("keyword.id")

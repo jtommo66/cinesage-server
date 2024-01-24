@@ -10,7 +10,6 @@ exports.seed = async function (knex) {
       title: "Shaun of the Dead",
       image: "/images/ShaunOfTheDead.jpg",
       director_id: 1,
-      genre_id: 2,
       keyword_id: 1,
       trailer: "https://www.youtube.com/watch?v=LIfcaZ4pC-4",
       synopsis:
@@ -21,7 +20,6 @@ exports.seed = async function (knex) {
       title: "Superbad",
       image: "/images/Superbad.jpg",
       director_id: 2,
-      genre_id: 2,
       keyword_id: 5,
       trailer: "https://www.youtube.com/watch?v=4eaZ_48ZYog",
       synopsis:
@@ -32,7 +30,6 @@ exports.seed = async function (knex) {
       title: "Mr Bean's Holiday",
       image: "/images/MrBeansHoliday.jpg",
       director_id: 3,
-      genre_id: 3,
       keyword_id: 7,
       trailer: "https://www.youtube.com/watch?v=hSxLUd8aly4",
       synopsis:
@@ -43,7 +40,6 @@ exports.seed = async function (knex) {
       title: "Reservoir Dogs",
       image: "/images/ReservoirDogs.jpg",
       director_id: 4,
-      genre_id: 10,
       keyword_id: 8,
       trailer: "https://www.youtube.com/watch?v=vayksn4Y93A&t=43s",
       synopsis:
@@ -54,7 +50,6 @@ exports.seed = async function (knex) {
       title: "Kill Bill: Vol 1",
       image: "/images/KillBillVol1.jpg",
       director_id: 4,
-      genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=7kSuas6mRpk",
       synopsis:
@@ -65,7 +60,6 @@ exports.seed = async function (knex) {
       title: "Kill Bill: Vol 2",
       image: "/images/KillBillVol2.jpg",
       director_id: 4,
-      genre_id: 6,
       keyword_id: 11,
       trailer: "https://www.youtube.com/watch?v=WTt8cCIvGYI",
       synopsis:
@@ -76,7 +70,6 @@ exports.seed = async function (knex) {
       title: "Lord of the Rings: The Fellowship of the Ring",
       image: "/images/lotrFellowshipOfTheRing.jpg",
       director_id: 5,
-      genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=aStYWD25fAQ",
       synopsis:
@@ -87,7 +80,6 @@ exports.seed = async function (knex) {
       title: "Lord of the Rings: The Two Towers",
       image: "/images/lotrTheTwoTowers.jpeg",
       director_id: 5,
-      genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=Y4neBR0h39c",
       synopsis:
@@ -98,7 +90,6 @@ exports.seed = async function (knex) {
       title: "Lord of the Rings: The Return of the King",
       image: "/images/lotrReturnOfTheKing.jpg",
       director_id: 5,
-      genre_id: 8,
       keyword_id: 13,
       trailer: "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
       synopsis:
@@ -109,7 +100,6 @@ exports.seed = async function (knex) {
       title: "No Country for Old Men",
       image: "/images/NoCountryForOldMen.jpeg",
       director_id: 6,
-      genre_id: 10,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=38A__WT3-o0",
       synopsis:
@@ -120,7 +110,6 @@ exports.seed = async function (knex) {
       title: "Hot Fuzz",
       image: "/images/HotFuzz.jpg",
       director_id: 1,
-      genre_id: 2,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=ayTnvVpj9t4",
       synopsis:
@@ -131,7 +120,6 @@ exports.seed = async function (knex) {
       title: "Parasite",
       image: "/images/Parasite.jpg",
       director_id: 7,
-      genre_id: 4,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=5xH0HfJHsaY",
       synopsis:
@@ -142,7 +130,6 @@ exports.seed = async function (knex) {
       title: "Midsommar",
       image: "/images/Midsommar.jpg",
       director_id: 8,
-      genre_id: 1,
       keyword_id: 18,
       trailer: "https://www.youtube.com/watch?v=1Vnghdsjmd0",
       synopsis:
@@ -153,7 +140,6 @@ exports.seed = async function (knex) {
       title: "The Grand Budapest Hotel",
       image: "/images/TheGrandBudapestHotel.jpg",
       director_id: 9,
-      genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=1Fg5iWmQjwk&t=41s",
       synopsis:
@@ -164,7 +150,6 @@ exports.seed = async function (knex) {
       title: "The French Dispatch",
       image: "/images/TheFrenchDispatch.jpg",
       director_id: 9,
-      genre_id: 2,
       keyword_id: 19,
       trailer: "https://www.youtube.com/watch?v=TcPk2p0Zaw4",
       synopsis:
@@ -175,7 +160,6 @@ exports.seed = async function (knex) {
       title: "Isle of Dogs",
       image: "/images/IsleOfDogs.jpg",
       director_id: 9,
-      genre_id: 2,
       keyword_id: 23,
       trailer: "https://www.youtube.com/watch?v=dt__kig8PVU&t=90s",
       synopsis:
@@ -186,7 +170,6 @@ exports.seed = async function (knex) {
       title: "The Darjeeling Limited",
       image: "/images/TheDarjeelingLimited.jpeg",
       director_id: 9,
-      genre_id: 2,
       keyword_id: 22,
       trailer: "https://www.youtube.com/watch?v=aO1bYukdvLI",
       synopsis:
@@ -197,7 +180,6 @@ exports.seed = async function (knex) {
       title: "Marcel the Shell with Shoes on",
       image: "/images/MarcelTheShellWithShoesOn.jpg",
       director_id: 10,
-      genre_id: 11,
       keyword_id: 20,
       trailer: "https://www.youtube.com/watch?v=k98Afd7Nf3Y",
       synopsis:
@@ -208,7 +190,6 @@ exports.seed = async function (knex) {
       title: "Fear and Loathing in Las Vegas",
       image: "/images/FearAndLoathingInLasVegas.jpg",
       director_id: 11,
-      genre_id: 4,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=CiTllYeJc48&t=17s",
       synopsis:
@@ -219,7 +200,6 @@ exports.seed = async function (knex) {
       title: "The Death of Stalin",
       image: "/images/TheDeathOfStalin.png",
       director_id: 12,
-      genre_id: 2,
       keyword_id: 34,
       trailer: "https://www.youtube.com/watch?v=E9eAshaPvYw",
       synopsis:
@@ -230,7 +210,6 @@ exports.seed = async function (knex) {
       title: "Boiling Point",
       image: "/images/BoilingPoint.jpg",
       director_id: 13,
-      genre_id: 4,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=UBUfCL_tvro",
       synopsis:
@@ -241,7 +220,6 @@ exports.seed = async function (knex) {
       title: "Chef",
       image: "/images/Chef.jpg",
       director_id: 14,
-      genre_id: 3,
       keyword_id: 24,
       trailer: "https://www.youtube.com/watch?v=FF_rYNupPwg",
       synopsis:
@@ -252,7 +230,6 @@ exports.seed = async function (knex) {
       title: "Spiderman: Into the Spiderverse",
       image: "/images/SpidermanIntoTheSpiderverse.jpg",
       director_id: 15,
-      genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=g4Hbz2jLxvQ&t=4s",
       synopsis:
@@ -263,7 +240,6 @@ exports.seed = async function (knex) {
       title: "Spiderman: Across the Spiderverse",
       image: "/images/SpidermanAcrossTheSpiderverse.jpg",
       director_id: 16,
-      genre_id: 11,
       keyword_id: 25,
       trailer: "https://www.youtube.com/watch?v=shW9i6k8cB0",
       synopsis:
@@ -274,7 +250,6 @@ exports.seed = async function (knex) {
       title: "Seven Psychopaths",
       image: "/images/SevenPsychopaths.jpg",
       director_id: 17,
-      genre_id: 10,
       keyword_id: 4,
       trailer: "https://www.youtube.com/watch?v=jsHR77oQKEY",
       synopsis:
@@ -285,7 +260,6 @@ exports.seed = async function (knex) {
       title: "In Bruges",
       image: "/images/InBruges.jpg",
       director_id: 17,
-      genre_id: 10,
       keyword_id: 3,
       trailer: "https://www.youtube.com/watch?v=p-gG2qo_l_A",
       synopsis:
@@ -296,7 +270,6 @@ exports.seed = async function (knex) {
       title: "Three Billboards Outside Ebbing, Missouri",
       image: "/images/ThreeBillboardsOutsideEbbingMissouri.jpg",
       director_id: 17,
-      genre_id: 4,
       keyword_id: 27,
       trailer: "https://www.youtube.com/watch?v=Jit3YhGx5pU",
       synopsis:
@@ -307,7 +280,6 @@ exports.seed = async function (knex) {
       title: "The Banshees of Inisherin",
       image: "/images/TheBansheesOfInishurin.jpg",
       director_id: 17,
-      genre_id: 4,
       keyword_id: 28,
       trailer: "https://www.youtube.com/watch?v=uRu3zLOJN2c",
       synopsis:
@@ -318,7 +290,6 @@ exports.seed = async function (knex) {
       title: "Moneyball",
       image: "/images/Moneyball.jpeg",
       director_id: 18,
-      genre_id: 4,
       keyword_id: 29,
       trailer: "https://www.youtube.com/watch?v=-4QPVo0UIzc",
       synopsis:
@@ -329,7 +300,6 @@ exports.seed = async function (knex) {
       title: "The Last Duel",
       image: "/images/TheLastDuel.jpg",
       director_id: 19,
-      genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=mgygUwPJvYk",
       synopsis:
@@ -340,7 +310,6 @@ exports.seed = async function (knex) {
       title: "Bullet Train",
       image: "/images/BulletTrain.jpeg",
       director_id: 20,
-      genre_id: 7,
       keyword_id: 17,
       trailer: "https://www.youtube.com/watch?v=0IOsk2Vlc4o",
       synopsis:
@@ -351,7 +320,6 @@ exports.seed = async function (knex) {
       title: "Toy Story",
       image: "/images/ToyStory.jpg",
       director_id: 21,
-      genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=v-PjgYDrg70",
       synopsis:
@@ -362,7 +330,6 @@ exports.seed = async function (knex) {
       title: "Toy Story 2",
       image: "/images/ToyStory2.jpg",
       director_id: 21,
-      genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=t0bxljESZ5U",
       synopsis:
@@ -373,7 +340,6 @@ exports.seed = async function (knex) {
       title: "Toy Story 3",
       image: "/images/ToyStory3.jpg",
       director_id: 22,
-      genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=ZZv1vki4ou4",
       synopsis:
@@ -384,7 +350,6 @@ exports.seed = async function (knex) {
       title: "Kubo and the Two Strings",
       image: "/images/KuboAndTheTwoStrings.png",
       director_id: 23,
-      genre_id: 11,
       keyword_id: 21,
       trailer: "https://www.youtube.com/watch?v=qZefKaANfe0",
       synopsis:
@@ -395,7 +360,6 @@ exports.seed = async function (knex) {
       title: "Drive",
       image: "/images/Drive.jpg",
       director_id: 24,
-      genre_id: 5,
       keyword_id: 9,
       trailer: "https://www.youtube.com/watch?v=KBiOF3y1W0Y",
       synopsis:
@@ -406,7 +370,6 @@ exports.seed = async function (knex) {
       title: "Goodfellas",
       image: "/images/Goodfellas.jpg",
       director_id: 25,
-      genre_id: 10,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=2ilzidi_J8Q",
       synopsis:
@@ -417,7 +380,6 @@ exports.seed = async function (knex) {
       title: "The Wolf of Wall Street",
       image: "/images/TheWolfOfWallStreet.jpg",
       director_id: 25,
-      genre_id: 4,
       keyword_id: 30,
       trailer: "https://www.youtube.com/watch?v=iszwuX1AK6A",
       synopsis:
@@ -428,7 +390,6 @@ exports.seed = async function (knex) {
       title: "Shutter Island",
       image: "/images/ShutterIsland.jpg",
       director_id: 25,
-      genre_id: 4,
       keyword_id: 15,
       trailer: "https://www.youtube.com/watch?v=v8yrZSkKxTA",
       synopsis:
@@ -439,7 +400,6 @@ exports.seed = async function (knex) {
       title: "Monsters, Inc.",
       image: "/images/MonstersInc.jpg",
       director_id: 26,
-      genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=CGbgaHoapFM",
       synopsis:
@@ -450,7 +410,6 @@ exports.seed = async function (knex) {
       title: "Monsters University",
       image: "/images/MonstersUniversity.jpg",
       director_id: 27,
-      genre_id: 11,
       keyword_id: 32,
       trailer: "https://www.youtube.com/watch?v=QxrQ6BaijAY",
       synopsis:

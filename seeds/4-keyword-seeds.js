@@ -141,5 +141,17 @@ exports.seed = async function (knex) {
       id: 34,
       keyword: "Historical",
     },
+    {
+      id: 35,
+      keyword: "Adorable",
+    },
+    {
+      id: 36,
+      keyword: "Relationships",
+    },
+    {
+      id: 37,
+      keyword: "Music",
+    },
   ]);
 };
