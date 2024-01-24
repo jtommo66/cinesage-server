@@ -7,12 +7,6 @@ exports.up = function (knex) {
     table.increments("id").primary();
     table.string("title").notNullable();
     table.string("image").notNullable();
-    table
-      .integer("director_id")
-      .unsigned()
-      .references("director.id")
-      .onUpdate("CASCADE")
-      .onDelete("CASCADE");
     table.string("trailer").notNullable();
     table.string("synopsis").notNullable();
   });
