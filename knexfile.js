@@ -1,6 +1,6 @@
-const user = process.env.USER;
-const password = process.env.PASSWORD;
-const host = process.env.HOST;
+const user = process.env.DB_USER;
+const password = process.env.DB_PASSWORD;
+const host = process.env.DB_HOST;
 
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
