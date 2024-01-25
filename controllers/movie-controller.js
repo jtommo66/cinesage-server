@@ -29,7 +29,35 @@ const singleMovie = async (req, res) => {
 
     movie.image = `${process.env.API_URL}:${process.env.PORT}/${movie.image}`;
 
-    res.status(200).json(movie);
+    const genres = await knex("movie_genre")
+      .join("genre", "movie_genre.genre_id", "genre.id")
+      .where({ movie_id: req.params.id })
+      .select("genre");
+
+    const mappedGenres = genres.map((object) => object.genre);
+
+    const directors = await knex("movie_director")
+      .join("director", "movie_director.director_id", "director.id")
+      .where({ movie_id: req.params.id })
+      .select("director.name");
+
+    const mappedDirectors = directors.map((object) => object.name);
+
+    const keywords = await knex("movie_keyword")
+      .join("keyword", "movie_keyword.keyword_id", "keyword.id")
+      .where({ movie_id: req.params.id })
+      .select("keyword");
+
+    const mappedKeywords = keywords.map((object) => object.keyword);
+
+    const completedMovie = {
+      ...movie,
+      genre: mappedGenres,
+      director: mappedDirectors,
+      keyword: mappedKeywords,
+    };
+
+    res.json(completedMovie);
   } catch (error) {
     console.error(error);
     res
