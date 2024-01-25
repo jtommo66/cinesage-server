@@ -7,6 +7,7 @@ const movieRoutes = require("./routes/movie-routes");
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static("public"));
 
 app.use("/movies", movieRoutes);
 
