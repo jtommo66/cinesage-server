@@ -1,35 +1,10 @@
 const knex = require("knex")(require("../knexfile"));
 require("dotenv").config();
 
-const movieList = async (req, res) => {
-  try {
-    const movies = await knex("movie");
-
-    movies.forEach((movie) => {
-      if (movie.image) {
-        movie.image = `${process.env.API_URL}:${
-          process.env.PORT
-        }/images/${movie.image.split("/").pop()}`;
-      }
-    });
-
-    const fullMovieList = await knex
-      .select("*")
-      .fromRaw(
-        "movie INNER JOIN movie_genre as mgenre INNER JOIN movie_keyword as mkeyword INNER JOIN movie_director as mdirector ON mgenre.movie_id = movie.id AND mkeyword.movie_id = movie.id AND mdirector.movie_id = movie.id;"
-      );
-
-    res.json(fullMovieList);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Unable to find movies list" });
-  }
-};
-
-const singleMovie = async (req, res) => {
+const singleGenre = async (req, res) => {
   try {
     const movie = await knex("movie")
-      .where({ "movie.id": req.params.id })
+      .where({ "genre.id": req.params.id })
       .first()
       .select("id", "title", "image", "trailer", "synopsis");
 
@@ -37,21 +12,21 @@ const singleMovie = async (req, res) => {
 
     const genres = await knex("movie_genre")
       .join("genre", "movie_genre.genre_id", "genre.id")
-      .where({ movie_id: req.params.id })
+      .where({ genre_id: req.params.id })
       .select("genre");
 
     const mappedGenres = genres.map((object) => object.genre);
 
     const directors = await knex("movie_director")
       .join("director", "movie_director.director_id", "director.id")
-      .where({ movie_id: req.params.id })
+      .where({ genre_id: req.params.id })
       .select("director.name");
 
     const mappedDirectors = directors.map((object) => object.name);
 
     const keywords = await knex("movie_keyword")
       .join("keyword", "movie_keyword.keyword_id", "keyword.id")
-      .where({ movie_id: req.params.id })
+      .where({ genre_id: req.params.id })
       .select("keyword");
 
     const mappedKeywords = keywords.map((object) => object.keyword);
@@ -68,8 +43,8 @@ const singleMovie = async (req, res) => {
     console.error(error);
     res
       .status(404)
-      .json({ message: `Unable to retrieve movie ID ${req.params.id}` });
+      .json({ message: `Unable to retrieve genre ID ${req.params.id}` });
   }
 };
 
-module.exports = { singleMovie, movieList };
+module.exports = { singleGenre };
