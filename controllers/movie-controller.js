@@ -13,13 +13,38 @@ const movieList = async (req, res) => {
       }
     });
 
-    const fullMovieList = await knex
+    // const fullMovieList = await knex
+    //   .select("*")
+    //   .fromRaw(
+    //     "movie_genre as mgenre INNER JOIN movie INNER JOIN movie_keyword as mkeyword INNER JOIN movie_director as mdirector ON mgenre.movie_id = movie.id AND mkeyword.movie_id = movie.id AND mdirector.movie_id = movie.id;"
+    //   );
+
+    const genreMovieList = await knex
       .select("*")
       .fromRaw(
-        "movie INNER JOIN movie_genre as mgenre INNER JOIN movie_keyword as mkeyword INNER JOIN movie_director as mdirector ON mgenre.movie_id = movie.id AND mkeyword.movie_id = movie.id AND mdirector.movie_id = movie.id;"
+        "movie_genre as mg INNER JOIN genre as g ON mg.genre_id = g.id INNER JOIN movie as m ON m.id = mg.movie_id ORDER BY `movie_id`"
       );
 
-    res.json(fullMovieList);
+    // const directorMovieList = await knex
+    //   .select("*")
+    //   .fromRaw(
+    //     "movie_director as md INNER JOIN director as d ON md.director_id = d.id INNER JOIN movie as m ON m.id = md.movie_id ORDER BY `movie_id`"
+    //   );
+
+    // const keywordMovieList = await knex
+    //   .select("*")
+    //   .fromRaw(
+    //     "movie_keyword as mk INNER JOIN keyword as k ON mk.keyword_id = k.id INNER JOIN movie as m ON m.id = mk.movie_id ORDER BY `movie_id`"
+    //   );
+
+    // const completeMovieList = {
+    //   ...movie,
+    //   genre: genreMovieList.genre,
+    //   director: directorMovieList.director,
+    //   keyword: keywordMovieList.keyword,
+    // };
+
+    res.json(genreMovieList);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Unable to find movies list" });
