@@ -20,31 +20,31 @@ const movieList = async (req, res) => {
     //   );
 
     const genreMovieList = await knex
-      .select("*")
+      .select("movie_id", "genre", "title", "image", "trailer", "synopsis")
       .fromRaw(
         "movie_genre as mg INNER JOIN genre as g ON mg.genre_id = g.id INNER JOIN movie as m ON m.id = mg.movie_id ORDER BY `movie_id`"
       );
 
-    // const directorMovieList = await knex
-    //   .select("*")
-    //   .fromRaw(
-    //     "movie_director as md INNER JOIN director as d ON md.director_id = d.id INNER JOIN movie as m ON m.id = md.movie_id ORDER BY `movie_id`"
-    //   );
+    const directorMovieList = await knex
+      .select("movie_id", "name", "title", "image", "trailer", "synopsis")
+      .fromRaw(
+        "movie_director as md INNER JOIN director as d ON md.director_id = d.id INNER JOIN movie as m ON m.id = md.movie_id ORDER BY `movie_id`"
+      );
 
-    // const keywordMovieList = await knex
-    //   .select("*")
-    //   .fromRaw(
-    //     "movie_keyword as mk INNER JOIN keyword as k ON mk.keyword_id = k.id INNER JOIN movie as m ON m.id = mk.movie_id ORDER BY `movie_id`"
-    //   );
+    const keywordMovieList = await knex
+      .select("movie_id", "keyword", "title", "image", "trailer", "synopsis")
+      .fromRaw(
+        "movie_keyword as mk INNER JOIN keyword as k ON mk.keyword_id = k.id INNER JOIN movie as m ON m.id = mk.movie_id ORDER BY `movie_id`"
+      );
 
-    // const completeMovieList = {
-    //   ...movie,
-    //   genre: genreMovieList.genre,
-    //   director: directorMovieList.director,
-    //   keyword: keywordMovieList.keyword,
-    // };
+    const completeMovieList = {
+      ...movies,
+      genre: genreMovieList.genre,
+      director: directorMovieList.name,
+      keyword: keywordMovieList.keyword,
+    };
 
-    res.json(genreMovieList);
+    res.json(completeMovieList);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Unable to find movies list" });
