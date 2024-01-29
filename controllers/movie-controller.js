@@ -5,46 +5,40 @@ const movieList = async (req, res) => {
   try {
     const movies = await knex("movie");
 
-    movies.forEach((movie) => {
-      if (movie.image) {
-        movie.image = `${process.env.API_URL}:${
-          process.env.PORT
-        }/images/${movie.image.split("/").pop()}`;
-      }
-    });
+    const mappedMovies = await Promise.all(
+      movies.map(async (movie) => {
+        if (movie.image) {
+          movie.image = `${process.env.API_URL}:${
+            process.env.PORT
+          }/images/${movie.image.split("/").pop()}`;
+        }
 
-    // const fullMovieList = await knex
-    //   .select("*")
-    //   .fromRaw(
-    //     "movie_genre as mgenre INNER JOIN movie INNER JOIN movie_keyword as mkeyword INNER JOIN movie_director as mdirector ON mgenre.movie_id = movie.id AND mkeyword.movie_id = movie.id AND mdirector.movie_id = movie.id;"
-    //   );
+        const genres = await knex("movie_genre")
+          .join("genre", "movie_genre.genre_id", "genre.id")
+          .where({ movie_id: movie.id })
+          .select("genre");
 
-    const genreMovieList = await knex
-      .select("movie_id", "genre", "title", "image", "trailer", "synopsis")
-      .fromRaw(
-        "movie_genre as mg INNER JOIN genre as g ON mg.genre_id = g.id INNER JOIN movie as m ON m.id = mg.movie_id ORDER BY `movie_id`"
-      );
+        movie.genre = genres.map((object) => object.genre);
 
-    const directorMovieList = await knex
-      .select("movie_id", "name", "title", "image", "trailer", "synopsis")
-      .fromRaw(
-        "movie_director as md INNER JOIN director as d ON md.director_id = d.id INNER JOIN movie as m ON m.id = md.movie_id ORDER BY `movie_id`"
-      );
+        const directors = await knex("movie_director")
+          .join("director", "movie_director.director_id", "director.id")
+          .where({ movie_id: movie.id })
+          .select("director.name");
 
-    const keywordMovieList = await knex
-      .select("movie_id", "keyword", "title", "image", "trailer", "synopsis")
-      .fromRaw(
-        "movie_keyword as mk INNER JOIN keyword as k ON mk.keyword_id = k.id INNER JOIN movie as m ON m.id = mk.movie_id ORDER BY `movie_id`"
-      );
+        movie.director = directors.map((object) => object.name);
 
-    const completeMovieList = {
-      ...movies,
-      genre: genreMovieList.genre,
-      director: directorMovieList.name,
-      keyword: keywordMovieList.keyword,
-    };
+        const keywords = await knex("movie_keyword")
+          .join("keyword", "movie_keyword.keyword_id", "keyword.id")
+          .where({ movie_id: movie.id })
+          .select("keyword");
 
-    res.json(completeMovieList);
+        movie.keyword = keywords.map((object) => object.keyword);
+
+        return movie;
+      })
+    );
+
+    res.json(mappedMovies);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Unable to find movies list" });
