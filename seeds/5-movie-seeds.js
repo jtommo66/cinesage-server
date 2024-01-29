@@ -160,7 +160,7 @@ exports.seed = async function (knex) {
     {
       id: 20,
       title: "The Death of Stalin",
-      image: "images/TheDeathOfStalin.png",
+      image: "images/TheDeathOfStalin.jpeg",
       trailer: "https://www.youtube.com/watch?v=E9eAshaPvYw",
       synopsis:
         "Moscow, 1953. After being in power for nearly 30 years, Soviet dictator, Joseph Vissarionovich Stalin, takes ill and quickly dies. Now the members of the Council of Ministers scramble for power.",
