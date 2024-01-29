@@ -133,5 +133,9 @@ exports.seed = async function (knex) {
       id: 32,
       name: "Kemp Powers",
     },
+    {
+      id: 33,
+      name: "Garth Jennings",
+    },
   ]);
 };

@@ -61,5 +61,9 @@ exports.seed = async function (knex) {
       id: 14,
       genre: "Mystery",
     },
+    {
+      id: 15,
+      genre: "Sci-fi",
+    },
   ]);
 };

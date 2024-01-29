@@ -333,5 +333,13 @@ exports.seed = async function (knex) {
       synopsis:
         "A look at the relationship between Mike Wazowski (Billy Crystal) and James P. Sully Sullivan (John Goodman) during their days at Monsters University, when they weren't necessarily the best of friends.",
     },
+    {
+      id: 42,
+      title: "A Hitchhiker's Guide to the Galaxy",
+      image: "images/AHitchhikersGuidetotheGalaxy.jpeg",
+      trailer: "https://www.youtube.com/watch?v=1PaPp9MJm-I",
+      synopsis:
+        "Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of The Hitchhiker's Guide to the Galaxy",
+    },
   ]);
 };
