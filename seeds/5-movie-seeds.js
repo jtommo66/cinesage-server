@@ -240,7 +240,7 @@ exports.seed = async function (knex) {
     {
       id: 30,
       title: "The Last Duel",
-      image: "images/TheLastDuel.jpg",
+      image: "images/TheLastDuel.jpeg",
       trailer: "https://www.youtube.com/watch?v=mgygUwPJvYk",
       synopsis:
         "The Knight Jean de Carrouges must settle the dispute over his wife Marguerite by challenging his former friend to a duel to the death.",
@@ -272,7 +272,7 @@ exports.seed = async function (knex) {
     {
       id: 34,
       title: "Toy Story 3",
-      image: "images/ToyStory3.jpg",
+      image: "images/ToyStory3.jpeg",
       trailer: "https://www.youtube.com/watch?v=ZZv1vki4ou4",
       synopsis:
         "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
