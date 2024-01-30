@@ -4,6 +4,7 @@
  */
 exports.up = function (knex) {
   return knex.schema.createTable("movie_keyword", (table) => {
+    table.increments("id").primary();
     table
       .integer("movie_id")
       .unsigned()
