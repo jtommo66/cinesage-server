@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const { genreMovieList } = require("../controllers/genre-controller");
 
-router.route(":genre").get(genreMovieList);
+const { genreList } = require("../controllers/genre-controller");
+
+router.route("/").get(genreList);
 
 module.exports = router;
