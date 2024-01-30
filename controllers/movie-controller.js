@@ -139,4 +139,52 @@ const genreMovieList = async (req, res) => {
   }
 };
 
-module.exports = { singleMovie, movieList, genreMovieList };
+const keywordMovieList = async (req, res) => {
+  try {
+    const movies = await knex("movie");
+
+    const mappedMovies = await Promise.all(
+      movies.map(async (movie) => {
+        if (movie.image) {
+          movie.image = `${process.env.API_URL}:${
+            process.env.PORT
+          }/images/${movie.image.split("/").pop()}`;
+        }
+
+        const genres = await knex("movie_genre")
+          .join("genre", "movie_genre.genre_id", "genre.id")
+          .where({ movie_id: movie.id })
+          .select("genre");
+
+        movie.genre = genres.map((object) => object.genre);
+
+        const directors = await knex("movie_director")
+          .join("director", "movie_director.director_id", "director.id")
+          .where({ movie_id: movie.id })
+          .select("director.name");
+
+        movie.director = directors.map((object) => object.name);
+
+        const keywords = await knex("movie_keyword")
+          .join("keyword", "movie_keyword.keyword_id", "keyword.id")
+          .where({ movie_id: movie.id })
+          .select("keyword");
+
+        movie.keyword = keywords.map((object) => object.keyword);
+
+        return movie;
+      })
+    );
+
+    const movieFilter = mappedMovies.filter((movie) => {
+      return movie.keyword.includes(req.params.keyword);
+    });
+
+    res.json(movieFilter);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Unable to find keyword" });
+  }
+};
+
+module.exports = { singleMovie, movieList, genreMovieList, keywordMovieList };
