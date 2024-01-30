@@ -274,7 +274,7 @@ exports.seed = async function (knex) {
       id: 34,
       title: "Toy Story 3",
       image: "images/ToyStory3.jpeg",
-      trailer: "https://www.youtube.com/embed/ZZv1vki4ou4?si=EHuar0X1LBNhBt_Y",
+      trailer: "https://www.youtube.com/embed/ZZv1vki4ou4?si=YlCbPLAPymzGHx35",
       synopsis:
         "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
     },
