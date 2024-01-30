@@ -168,7 +168,7 @@ exports.seed = async function (knex) {
     {
       id: 21,
       title: "Boiling Point",
-      image: "images/BoilingPoint.jpg",
+      image: "images/BoilingPoint.jpeg",
       trailer: "https://www.youtube.com/watch?v=UBUfCL_tvro",
       synopsis:
         "Enter the relentless pressure of a restaurant kitchen as a head chef wrangles his team on the busiest day of the year.",
