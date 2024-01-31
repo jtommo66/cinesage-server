@@ -173,5 +173,21 @@ exports.seed = async function (knex) {
       id: 42,
       name: "Jim Henson",
     },
+    {
+      id: 43,
+      name: "Alex Garland",
+    },
+    {
+      id: 44,
+      name: "Denis Villeneuve",
+    },
+    {
+      id: 45,
+      name: "Christopher Nolan",
+    },
+    {
+      id: 46,
+      name: "Stanley Kubrick",
+    },
   ]);
 };

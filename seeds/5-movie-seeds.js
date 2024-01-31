@@ -436,7 +436,71 @@ exports.seed = async function (knex) {
       image: "images/Labyrinth.jpeg",
       trailer: "https://www.youtube.com/embed/O2yd4em1I6M?si=p6gcNjg-GjuvaQEN",
       synopsis:
-        "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+        "Sixteen-year-old Sarah must solve a labyrinth to rescue her baby brother when he is taken by the Goblin King.",
+    },
+    {
+      id: 55,
+      title: "Ex Machina",
+      image: "images/ExMachina.jpg",
+      trailer: "https://www.youtube.com/embed/EoQuVnKhxaM?si=QWKx1T449X6P-fXO",
+      synopsis:
+        "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
+    },
+    {
+      id: 56,
+      title: "Arrival",
+      image: "images/Arrival.jpeg",
+      trailer: "https://www.youtube.com/embed/tFMo3UJ4B4g?si=-_d1yPTp5gGl0auk",
+      synopsis:
+        "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    },
+    {
+      id: 57,
+      title: "Inception",
+      image: "images/Inception.jpeg",
+      trailer: "https://www.youtube.com/embed/YoHD9XEInc0?si=9_4mZUcKF_sPqZMV",
+      synopsis:
+        "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+    },
+    {
+      id: 58,
+      title: "Prometheus",
+      image: "images/Prometheus.jpg",
+      trailer: "https://www.youtube.com/embed/yA6OKoW30Pk?si=rqonAyfycMIxrBxB",
+      synopsis:
+        "Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone.",
+    },
+    {
+      id: 59,
+      title: "2001: A Space Odyssey",
+      image: "images/2001ASpaceOdyssey.jpg",
+      trailer: "https://www.youtube.com/embed/oR_e9y-bka0?si=zBGz8L0MKg0_p27v",
+      synopsis:
+        "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins: a spacecraft manned by two men and the supercomputer HAL 9000.",
+    },
+    {
+      id: 60,
+      title: "Dune",
+      image: "images/Dune.jpg",
+      trailer: "https://www.youtube.com/embed/8g18jFHCLXk?si=gSDcMTd2_HCwMy2r",
+      synopsis:
+        "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+    },
+    {
+      id: 61,
+      title: "Last Night in Soho",
+      image: "images/LastNightInSoho.jpeg",
+      trailer: "https://www.youtube.com/embed/AcVnFrxjPjI?si=l_bHfmEOcecjXPSN",
+      synopsis:
+        "Aspiring fashion designer Eloise is mysteriously able to enter the 1960s, where she encounters dazzling wannabe singer Sandie. But the glamour is not as it seems, and the dreams of the past crack and splinter into something darker.",
+    },
+    {
+      id: 62,
+      title: "Prisoners",
+      image: "images/Prisoners.jpeg",
+      trailer: "https://www.youtube.com/embed/bpXfcTF6iVk?si=8CReHacrCZoBmdjx",
+      synopsis:
+        "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
     },
   ]);
 };
