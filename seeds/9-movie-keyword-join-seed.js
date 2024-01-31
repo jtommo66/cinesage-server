@@ -825,5 +825,113 @@ exports.seed = async function (knex) {
       movie_id: 62,
       keyword_id: 17,
     },
+    {
+      movie_id: 63,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 63,
+      keyword_id: 36,
+    },
+    {
+      movie_id: 63,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 63,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 63,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 63,
+      keyword_id: 29,
+    },
+    {
+      movie_id: 65,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 65,
+      keyword_id: 29,
+    },
+    {
+      movie_id: 65,
+      keyword_id: 31,
+    },
+    {
+      movie_id: 66,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 66,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 66,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 67,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 67,
+      keyword_id: 36,
+    },
+    {
+      movie_id: 67,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 68,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 68,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 68,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 69,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 69,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 69,
+      keyword_id: 16,
+    },
+    {
+      movie_id: 70,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 70,
+      keyword_id: 29,
+    },
+    {
+      movie_id: 70,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 71,
+      keyword_id: 29,
+    },
+    {
+      movie_id: 71,
+      keyword_id: 2,
+    },
+    {
+      movie_id: 70,
+      keyword_id: 5,
+    },
   ]);
 };

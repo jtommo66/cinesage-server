@@ -502,5 +502,77 @@ exports.seed = async function (knex) {
       synopsis:
         "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
     },
+    {
+      id: 63,
+      title: "Coach Carter",
+      image: "images/CoachCarter.jpg",
+      trailer: "https://www.youtube.com/embed/d_GleoanbPE?si=75E-hqkF_pH3NwGA",
+      synopsis:
+        "Controversy surrounds high school basketball coach Ken Carter after he benches his entire team for breaking their academic contract with him.",
+    },
+    {
+      id: 64,
+      title: "Invictus",
+      image: "images/Invictus.jpg",
+      trailer: "https://www.youtube.com/embed/o2isdUuHmFY?si=hNYeuy-CcyXNvb2r",
+      synopsis:
+        "Nelson Mandela, in his first term as President of South Africa, initiates a unique venture to unite the Apartheid-torn land: enlist the national rugby team on a mission to win the 1995 Rugby World Cup.",
+    },
+    {
+      id: 65,
+      title: "Cool Runnings",
+      image: "images/CoolRunnings.jpeg",
+      trailer: "https://www.youtube.com/embed/4BqngFzt-cU?si=ppLerS7rP7bLTe7H",
+      synopsis:
+        "When a Jamaican sprinter is disqualified from the Olympic Games, he enlists the help of a dishonored coach to start the first Jamaican Bobsled Team.",
+    },
+    {
+      id: 66,
+      title: "Le Mans '66 (Ford v Ferrari)",
+      image: "images/FordVFerrari.jpeg",
+      trailer: "https://www.youtube.com/embed/4aY0dW3hpRc?si=XDx-Ye0Y7mKH_oy9",
+      synopsis:
+        "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+    },
+    {
+      id: 67,
+      title: "Rush",
+      image: "images/Rush.jpeg",
+      trailer: "https://www.youtube.com/embed/4XA73ni9eVs?si=DVksnKbZpjka5xA3",
+      synopsis:
+        "The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.",
+    },
+    {
+      id: 68,
+      title: "Raging Bull",
+      image: "images/RagingBull.jpg",
+      trailer: "https://www.youtube.com/embed/yUp6d79WRVI?si=x5pMV7b3yzHtrZ0T",
+      synopsis:
+        "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+    },
+    {
+      id: 69,
+      title: "Foxcatcher",
+      image: "images/FoxCatcher.jpg",
+      trailer: "https://www.youtube.com/embed/8361stZ8n0w?si=QLvR9Y06CU7iaXvy",
+      synopsis:
+        "U.S. Olympic wrestling champions and brothers Mark and Dave Schultz join Team Foxcatcher, led by eccentric multi-millionaire John du Pont, as they train for the 1988 Olympic Games in Seoul, South Korea, but John's self-destructive behaviour threatens to consume them all.",
+    },
+    {
+      id: 70,
+      title: "Any Given Sunday",
+      image: "images/AnyGivenSunday.jpg",
+      trailer: "https://www.youtube.com/embed/Q1DRD5Jvzis?si=yWkMRpbPjf_G906d",
+      synopsis:
+        "A behind-the-scenes look at the life-and-death struggles of modern-day gladiators and those who lead them.",
+    },
+    {
+      id: 71,
+      title: "The Waterboy",
+      image: "images/TheWaterboy.jpeg",
+      trailer: "https://www.youtube.com/embed/vVLvkqfTRVQ?si=ESI39QYcQYfrlhY-",
+      synopsis:
+        "A waterboy for a college football team discovers he has a unique tackling ability and becomes a member of the team.",
+    },
   ]);
 };

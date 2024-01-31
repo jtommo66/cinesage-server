@@ -189,5 +189,37 @@ exports.seed = async function (knex) {
       id: 46,
       name: "Stanley Kubrick",
     },
+    {
+      id: 47,
+      name: "Thomas Carter",
+    },
+    {
+      id: 48,
+      name: "Clint Eastwood",
+    },
+    {
+      id: 49,
+      name: "Jon Turteltaub",
+    },
+    {
+      id: 50,
+      name: "James Mangold",
+    },
+    {
+      id: 51,
+      name: "Ron Howard",
+    },
+    {
+      id: 52,
+      name: "Bennett Miller",
+    },
+    {
+      id: 53,
+      name: "Oliver Stone",
+    },
+    {
+      id: 54,
+      name: "Frank Coraci",
+    },
   ]);
 };
