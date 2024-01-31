@@ -657,7 +657,7 @@ exports.seed = async function (knex) {
     {
       id: 82,
       title: "Pan's Labyrinth",
-      image: "images/PansLabyrinth.jpg",
+      image: "images/PansLabyrinth.jpeg",
       trailer: "https://www.youtube.com/embed/jVZRnnVSQ8k?si=Sp1Uf8a4FJoLBSDx",
       synopsis:
         "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
