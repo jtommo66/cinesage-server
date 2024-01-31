@@ -930,8 +930,104 @@ exports.seed = async function (knex) {
       keyword_id: 2,
     },
     {
-      movie_id: 70,
+      movie_id: 71,
       keyword_id: 5,
+    },
+    {
+      movie_id: 72,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 72,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 72,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 73,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 73,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 73,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 74,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 74,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 74,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 75,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 75,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 75,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 76,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 76,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 76,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 77,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 77,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 77,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 78,
+      keyword_id: 18,
     },
   ]);
 };

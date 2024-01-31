@@ -221,5 +221,29 @@ exports.seed = async function (knex) {
       id: 54,
       name: "Frank Coraci",
     },
+    {
+      id: 55,
+      name: "John Madden",
+    },
+    {
+      id: 56,
+      name: "David Ayer",
+    },
+    {
+      id: 57,
+      name: "Sam Mendes",
+    },
+    {
+      id: 58,
+      name: "Joe Wright",
+    },
+    {
+      id: 59,
+      name: "Peter Berg",
+    },
+    {
+      id: 60,
+      name: "Steven Spielberg",
+    },
   ]);
 };

@@ -556,7 +556,7 @@ exports.seed = async function (knex) {
       image: "images/FoxCatcher.jpg",
       trailer: "https://www.youtube.com/embed/8361stZ8n0w?si=QLvR9Y06CU7iaXvy",
       synopsis:
-        "U.S. Olympic wrestling champions and brothers Mark and Dave Schultz join Team Foxcatcher, led by eccentric multi-millionaire John du Pont, as they train for the 1988 Olympic Games in Seoul, South Korea, but John's self-destructive behaviour threatens to consume them all.",
+        "Olympic wrestling champions Mark and Dave Schultz join Team Foxcatcher, led by eccentric multi-millionaire John du Pont, as they train for the Seoul Olympic Games, but John's self-destructive behaviour threatens to consume them all.",
     },
     {
       id: 70,
@@ -573,6 +573,70 @@ exports.seed = async function (knex) {
       trailer: "https://www.youtube.com/embed/vVLvkqfTRVQ?si=ESI39QYcQYfrlhY-",
       synopsis:
         "A waterboy for a college football team discovers he has a unique tackling ability and becomes a member of the team.",
+    },
+    {
+      id: 72,
+      title: "Operation Mincemeat",
+      image: "images/OperationMincemeat.jpeg",
+      trailer: "https://www.youtube.com/embed/YQ7ZXOXHZ20?si=xExJqWmDa6feTc9t",
+      synopsis:
+        "During WWII, two intelligence officers use a corpse and false papers to outwit German troops.",
+    },
+    {
+      id: 73,
+      title: "Fury",
+      image: "images/Fury.jpeg",
+      trailer: "https://www.youtube.com/embed/q94n3eWOWXM?si=_K5MyggKrKZQPMQl",
+      synopsis:
+        "A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.",
+    },
+    {
+      id: 74,
+      title: "1917",
+      image: "images/1917.jpeg",
+      trailer: "https://www.youtube.com/embed/YqNYrYUiMfg?si=LdmphPA6VEMcT3tj",
+      synopsis:
+        "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+    },
+    {
+      id: 75,
+      title: "Dunkirk",
+      image: "images/Dunkirk.jpg",
+      trailer: "https://www.youtube.com/embed/1KLeFboA8gc?si=aqoApQbJRFTnPO-V",
+      synopsis:
+        "Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
+    },
+    {
+      id: 76,
+      title: "Darkest Hour",
+      image: "images/DarkestHour.jpeg",
+      trailer: "https://www.youtube.com/embed/LtJ60u7SUSw?si=-z1k_nEG3IrH4O6O",
+      synopsis:
+        "In May 1940, the fate of World War II hangs on Winston Churchill, who must decide whether to negotiate with Adolf Hitler, or fight on knowing that it could mean the end of the British Empire.",
+    },
+    {
+      id: 77,
+      title: "Jarhead",
+      image: "images/Jarhead.jpeg",
+      trailer: "https://www.youtube.com/embed/-aBP-c28_1M?si=XslJFzZ2YIXOSAOb",
+      synopsis:
+        "A psychological study of Marine's state of mind during the Gulf War. Told through the eyes of a U.S. Marine sniper who struggles to cope with boredom, a sense of isolation, and other issues back home.",
+    },
+    {
+      id: 78,
+      title: "Lone Survivor",
+      image: "images/LoneSurvivor.jpeg",
+      trailer: "https://www.youtube.com/embed/yoLFk4JK_RM?si=68J3q-Q3RePR13p_",
+      synopsis:
+        "Marcus Luttrell and his team set out on a mission to capture or kill notorious Taliban leader Ahmad Shah, in late June 2005. Marcus and his team are left to fight for their lives in one of the most valiant efforts of modern warfare.",
+    },
+    {
+      id: 79,
+      title: "Saving Private Ryan",
+      image: "images/SavingPrivateRyan.jpeg",
+      trailer: "https://www.youtube.com/embed/9CiW_DgxCnQ?si=JmBTQPmmvx89S-2g",
+      synopsis:
+        "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
     },
   ]);
 };
