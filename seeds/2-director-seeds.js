@@ -269,5 +269,33 @@ exports.seed = async function (knex) {
       id: 66,
       name: "Stephen Sommers",
     },
+    {
+      id: 67,
+      name: "Woo-Ping Yuen",
+    },
+    {
+      id: 68,
+      name: "Wilson Yip",
+    },
+    {
+      id: 69,
+      name: "Gareth Evans",
+    },
+    {
+      id: 70,
+      name: "John G. Avildsen",
+    },
+    {
+      id: 71,
+      name: "Jeff Wadlow",
+    },
+    {
+      id: 72,
+      name: "Keanu Reeves",
+    },
+    {
+      id: 73,
+      name: "Paul Dunlop",
+    },
   ]);
 };

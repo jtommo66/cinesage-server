@@ -686,5 +686,61 @@ exports.seed = async function (knex) {
       synopsis:
         "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
     },
+    {
+      id: 86,
+      title: "Iron Monkey",
+      image: "IronMonkey.jpg",
+      trailer: "https://www.youtube.com/embed/B9-OQqbVkU8?si=Ux1iaYzyCijIIZ-t",
+      synopsis:
+        "A martial artist/doctor steals from the corrupt authorities as a masked thief to give to the poor while another martial artist/doctor is forced to hunt him down. But a major threat unites them as a powerful and traitorous shaolin monk takes over the authorities.",
+    },
+    {
+      id: 87,
+      title: "Ip Man",
+      image: "IpMan.jpeg",
+      trailer: "https://www.youtube.com/embed/RBYbqO_FUA4?si=XduJyuwzyiC8nvlX",
+      synopsis:
+        "During the Japanese invasion of China, a wealthy martial artist is forced to leave his home when his city is occupied. With little means of providing for themselves, Ip Man and the remaining members of the city must find a way to survive.",
+    },
+    {
+      id: 88,
+      title: "The Raid",
+      image: "TheRaid.jpg",
+      trailer: "https://www.youtube.com/embed/m6Q7KnXpNOg?si=YdtbIr6zngEOHw0M",
+      synopsis:
+        "A S.W.A.T. team becomes trapped in a tenement run by a ruthless mobster and his army of killers and thugs.",
+    },
+    {
+      id: 89,
+      title: "The Karate Kid",
+      image: "KarateKid.jpeg",
+      trailer: "https://www.youtube.com/embed/r_8Rw16uscg?si=ezkxxQOoMK_Q9HFB",
+      synopsis:
+        "A martial arts master agrees to teach karate to a bullied teenager.",
+    },
+    {
+      id: 90,
+      title: "Never Back Down",
+      image: "NeverBackDown.jpeg",
+      trailer: "https://www.youtube.com/embed/2tc-RPjZRm8?si=IhxTgWNyx36UbnFN",
+      synopsis:
+        "A frustrated and conflicted teenager arrives at a new high school to discover an underground fight club, and meets a classmate who begins to coerce him into fighting.",
+    },
+    {
+      id: 91,
+      title: "Man of Tai Chi",
+      image: "ManOfTaiChi.jpeg",
+      trailer: "https://www.youtube.com/embed/ISxLxZysmgk?si=BNKiYSI_RyyzTZnd",
+      synopsis:
+        "A young martial artist's unparalleled Tai Chi skills land him in a highly lucrative underworld fight club.",
+    },
+    {
+      id: 92,
+      title: "Twin Dragon Encounter",
+      image: "TwinDragonEncounter.jpg",
+      trailer: "https://www.youtube.com/embed/vgNI8VMcjTs?si=ZH9zLuIoDZF-am01",
+      synopsis:
+        "Identical twin brothers on vacation are faced with an unexpected battle when their getaway spot is invaded by mercenaries. Using their martial arts expertise, the twins wage war against the invaders in order to free their kidnapped girlfriends.",
+    },
   ]);
 };
