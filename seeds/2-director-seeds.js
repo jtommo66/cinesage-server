@@ -245,5 +245,29 @@ exports.seed = async function (knex) {
       id: 60,
       name: "Steven Spielberg",
     },
+    {
+      id: 61,
+      name: "Steve McQueen",
+    },
+    {
+      id: 62,
+      name: "Guillermo del Toro",
+    },
+    {
+      id: 63,
+      name: "John Francis Daley",
+    },
+    {
+      id: 64,
+      name: "Jonathan Goldstein",
+    },
+    {
+      id: 65,
+      name: "Frank Oz",
+    },
+    {
+      id: 66,
+      name: "Stephen Sommers",
+    },
   ]);
 };

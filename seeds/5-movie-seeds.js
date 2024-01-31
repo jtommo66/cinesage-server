@@ -638,5 +638,53 @@ exports.seed = async function (knex) {
       synopsis:
         "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
     },
+    {
+      id: 80,
+      title: "Killers of the Flower Moon",
+      image: "images/KillersoftheFlowerMoon.jpeg",
+      trailer: "https://www.youtube.com/embed/EP34Yoxs3FQ?si=s3t2qNFiblcqEUaK",
+      synopsis:
+        "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
+    },
+    {
+      id: 81,
+      title: "12 Years a Slave",
+      image: "images/12YearsASlave.jpg",
+      trailer: "https://www.youtube.com/embed/z02Ie8wKKRg?si=OaaoOh5EK4ofOgnf",
+      synopsis:
+        "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
+    },
+    {
+      id: 82,
+      title: "Pan's Labyrinth",
+      image: "images/PansLabyrinth.jpg",
+      trailer: "https://www.youtube.com/embed/jVZRnnVSQ8k?si=Sp1Uf8a4FJoLBSDx",
+      synopsis:
+        "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
+    },
+    {
+      id: 83,
+      title: "Dungeons & Dragons: Honour Among Thieves",
+      image: "images/DungeonsAndDragons.jpeg",
+      trailer: "https://www.youtube.com/embed/IiMinixSXII?si=bu89Aj6Fz3GfXT4D",
+      synopsis:
+        "A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+    },
+    {
+      id: 84,
+      title: "The Dark Crystal",
+      image: "images/TheDarkCrystal.jpeg",
+      trailer: "https://www.youtube.com/embed/eaH6cOR8NKc?si=_j8v7_aFkSVDsTnY",
+      synopsis:
+        "On another planet in the distant past, a Gelfling embarks on a quest to find the missing shard of a magical crystal, and to restore order to his world.",
+    },
+    {
+      id: 85,
+      title: "The Mummy",
+      image: "images/TheMummy.jpeg",
+      trailer: "www.youtube.com/embed/f7oKxlaUBac?si=JumUEjDMoadpLm6F",
+      synopsis:
+        "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
+    },
   ]);
 };
