@@ -137,5 +137,41 @@ exports.seed = async function (knex) {
       id: 33,
       name: "Garth Jennings",
     },
+    {
+      id: 34,
+      name: "James Wan",
+    },
+    {
+      id: 35,
+      name: "Francis Lawrence",
+    },
+    {
+      id: 36,
+      name: "Rob Minkoff",
+    },
+    {
+      id: 37,
+      name: "Zack Snyder",
+    },
+    {
+      id: 38,
+      name: "Danny Boyle",
+    },
+    {
+      id: 39,
+      name: "Juan Carlos Fresnadillo",
+    },
+    {
+      id: 40,
+      name: "Marc Forster",
+    },
+    {
+      id: 41,
+      name: "Ruben Fleischer",
+    },
+    {
+      id: 42,
+      name: "Jim Henson",
+    },
   ]);
 };

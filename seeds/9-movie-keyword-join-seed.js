@@ -585,5 +585,149 @@ exports.seed = async function (knex) {
       movie_id: 42,
       keyword_id: 39,
     },
+    {
+      movie_id: 43,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 43,
+      keyword_id: 15,
+    },
+    {
+      movie_id: 43,
+      keyword_id: 40,
+    },
+    {
+      movie_id: 44,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 44,
+      keyword_id: 15,
+    },
+    {
+      movie_id: 44,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 45,
+      keyword_id: 12,
+    },
+    {
+      movie_id: 45,
+      keyword_id: 14,
+    },
+    {
+      movie_id: 45,
+      keyword_id: 13,
+    },
+    {
+      movie_id: 46,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 46,
+      keyword_id: 15,
+    },
+    {
+      movie_id: 46,
+      keyword_id: 40,
+    },
+    {
+      movie_id: 47,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 47,
+      keyword_id: 40,
+    },
+    {
+      movie_id: 47,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 48,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 48,
+      keyword_id: 40,
+    },
+    {
+      movie_id: 48,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 49,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 49,
+      keyword_id: 15,
+    },
+    {
+      movie_id: 49,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 50,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 50,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 50,
+      keyword_id: 4,
+    },
+    {
+      movie_id: 51,
+      keyword_id: 1,
+    },
+    {
+      movie_id: 51,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 51,
+      keyword_id: 4,
+    },
+    {
+      movie_id: 52,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 52,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 52,
+      keyword_id: 34,
+    },
+    {
+      movie_id: 53,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 53,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 53,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 54,
+      keyword_id: 12,
+    },
+    {
+      movie_id: 54,
+      keyword_id: 14,
+    },
+    {
+      movie_id: 54,
+      keyword_id: 36,
+    },
   ]);
 };

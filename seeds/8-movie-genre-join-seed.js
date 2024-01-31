@@ -526,5 +526,141 @@ exports.seed = async function (knex) {
       movie_id: 42,
       genre_id: 15,
     },
+    {
+      movie_id: 43,
+      genre_id: 1,
+    },
+    {
+      movie_id: 43,
+      genre_id: 14,
+    },
+    {
+      movie_id: 43,
+      genre_id: 5,
+    },
+    {
+      movie_id: 44,
+      genre_id: 1,
+    },
+    {
+      movie_id: 44,
+      genre_id: 7,
+    },
+    {
+      movie_id: 44,
+      genre_id: 4,
+    },
+    {
+      movie_id: 45,
+      genre_id: 6,
+    },
+    {
+      movie_id: 45,
+      genre_id: 8,
+    },
+    {
+      movie_id: 45,
+      genre_id: 9,
+    },
+    {
+      movie_id: 46,
+      genre_id: 1,
+    },
+    {
+      movie_id: 47,
+      genre_id: 1,
+    },
+    {
+      movie_id: 47,
+      genre_id: 15,
+    },
+    {
+      movie_id: 47,
+      genre_id: 4,
+    },
+    {
+      movie_id: 48,
+      genre_id: 1,
+    },
+    {
+      movie_id: 48,
+      genre_id: 15,
+    },
+    {
+      movie_id: 48,
+      genre_id: 4,
+    },
+    {
+      movie_id: 49,
+      genre_id: 1,
+    },
+    {
+      movie_id: 49,
+      genre_id: 5,
+    },
+    {
+      movie_id: 49,
+      genre_id: 7,
+    },
+    {
+      movie_id: 50,
+      genre_id: 1,
+    },
+    {
+      movie_id: 50,
+      genre_id: 2,
+    },
+    {
+      movie_id: 50,
+      genre_id: 7,
+    },
+    {
+      movie_id: 51,
+      genre_id: 1,
+    },
+    {
+      movie_id: 51,
+      genre_id: 2,
+    },
+    {
+      movie_id: 51,
+      genre_id: 7,
+    },
+    {
+      movie_id: 52,
+      genre_id: 16,
+    },
+    {
+      movie_id: 52,
+      genre_id: 12,
+    },
+    {
+      movie_id: 52,
+      genre_id: 9,
+    },
+    {
+      movie_id: 53,
+      genre_id: 17,
+    },
+    {
+      movie_id: 53,
+      genre_id: 4,
+    },
+    {
+      movie_id: 53,
+      genre_id: 7,
+    },
+    {
+      movie_id: 54,
+      genre_id: 3,
+    },
+    {
+      movie_id: 54,
+      genre_id: 8,
+    },
+    {
+      movie_id: 54,
+      genre_id: 9,
+    },
   ]);
 };

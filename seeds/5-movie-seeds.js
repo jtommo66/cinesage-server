@@ -342,5 +342,101 @@ exports.seed = async function (knex) {
       synopsis:
         "Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of The Hitchhiker's Guide to the Galaxy",
     },
+    {
+      id: 43,
+      title: "Insidious",
+      image: "images/Insidious.jpg",
+      trailer: "https://www.youtube.com/embed/zuZnRUcoWos?si=PWJi3kAUz_gsPbXY",
+      synopsis:
+        "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+    },
+    {
+      id: 44,
+      title: "I Am Legend",
+      image: "images/IAmLegend.jpg",
+      trailer: "https://www.youtube.com/embed/sFNPNT_4Qww?si=F1jRCZ_tM7r4ERoM",
+      synopsis:
+        "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+    },
+    {
+      id: 45,
+      title: "The Forbidden Kingdom",
+      image: "images/TheForbiddenKingdom.jpeg",
+      trailer: "https://www.youtube.com/embed/uVEUNp_JnMc?si=GqJ95AS36Oc_hfvn",
+      synopsis:
+        "A discovery made by a kung fu obsessed American teen sends him on an adventure to ancient China, where he joins up with a band of martial arts warriors in order to free the imprisoned Monkey King.",
+    },
+    {
+      id: 46,
+      title: "Dawn of the Dead",
+      image: "images/DawnoftheDead.jpeg",
+      trailer: "https://www.youtube.com/embed/DV8mJcuYVaA?si=1G-FrOYfvifDOQ3g",
+      synopsis:
+        "A nurse, a policeman, a young married couple, a salesman and other survivors of a worldwide plague that is producing aggressive, flesh-eating zombies, take refuge in a mega Midwestern shopping mall.",
+    },
+    {
+      id: 47,
+      title: "28 Days Later",
+      image: "images/28DaysLater.jpeg",
+      trailer: "https://www.youtube.com/embed/FcDhdb6J3rM?si=2dUBJnX3sXQ_KYE7",
+      synopsis:
+        "Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.",
+    },
+    {
+      id: 48,
+      title: "28 Weeks Later",
+      image: "images/28WeeksLater.jpg",
+      trailer: "https://www.youtube.com/embed/ljqY7qrnycw?si=doEGQS_6WthMf368",
+      synopsis:
+        "Six months after the rage virus was inflicted on the population of Great Britain, the US Army helps to secure a small area of London for the survivors to repopulate and start again. But not everything goes according to plan.",
+    },
+    {
+      id: 49,
+      title: "World War Z",
+      image: "images/WorldWarZ.jpeg",
+      trailer: "https://www.youtube.com/embed/Md6Dvxdr0AQ?si=Avn5b43XoXVWDt18",
+      synopsis:
+        "Former United Nations employee Gerry Lane traverses the world in a race against time to stop a zombie pandemic that is toppling armies and governments and threatens to destroy humanity itself.",
+    },
+    {
+      id: 50,
+      title: "Zombieland",
+      image: "images/Zombieland.jpeg",
+      trailer: "https://www.youtube.com/embed/8m9EVP8X7N8?si=P_o20FSkZL7G7__D",
+      synopsis:
+        "A shy student trying to reach his family in Ohio, a gun-toting bruiser in search of the last Twinkie and a pair of sisters striving to get to an amusement park join forces in a trek across a zombie-filled America.",
+    },
+    {
+      id: 51,
+      title: "Zombieland: Double Tap",
+      image: "images/ZombielandDoubleTap.jpeg",
+      trailer: "https://www.youtube.com/embed/ZlW9yhUKlkQ?si=IY47F4O3860EVike",
+      synopsis:
+        "Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family.",
+    },
+    {
+      id: 52,
+      title: "Inglourious Basterd",
+      image: "images/InglouriousBasterds.jpg",
+      trailer: "https://www.youtube.com/embed/KnrRy6kSFF0?si=tF3tZO-dXtt-EgOS",
+      synopsis:
+        "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+    },
+    {
+      id: 53,
+      title: "Django Unchained",
+      image: "images/DjangoUnchained.jpg",
+      trailer: "https://www.youtube.com/embed/_iH0UBYDI4g?si=uaxhlp3wLd7pSU-Z",
+      synopsis:
+        "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+    },
+    {
+      id: 54,
+      title: "Labyrinth",
+      image: "images/Labyrinth.jpeg",
+      trailer: "https://www.youtube.com/embed/O2yd4em1I6M?si=p6gcNjg-GjuvaQEN",
+      synopsis:
+        "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+    },
   ]);
 };
