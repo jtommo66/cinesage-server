@@ -448,5 +448,41 @@ exports.seed = async function (knex) {
       movie_id: 92,
       director_id: 73,
     },
+    {
+      movie_id: 93,
+      director_id: 74,
+    },
+    {
+      movie_id: 94,
+      director_id: 6,
+    },
+    {
+      movie_id: 94,
+      director_id: 7,
+    },
+    {
+      movie_id: 95,
+      director_id: 4,
+    },
+    {
+      movie_id: 96,
+      director_id: 75,
+    },
+    {
+      movie_id: 97,
+      director_id: 76,
+    },
+    {
+      movie_id: 98,
+      director_id: 77,
+    },
+    {
+      movie_id: 99,
+      director_id: 78,
+    },
+    {
+      movie_id: 100,
+      director_id: 79,
+    },
   ]);
 };

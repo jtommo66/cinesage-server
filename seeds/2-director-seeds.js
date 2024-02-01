@@ -297,5 +297,29 @@ exports.seed = async function (knex) {
       id: 73,
       name: "Paul Dunlop",
     },
+    {
+      id: 74,
+      name: "James Mangold",
+    },
+    {
+      id: 75,
+      name: "Justin Kurzel",
+    },
+    {
+      id: 76,
+      name: "Alejandro G. Iñárritu",
+    },
+    {
+      id: 77,
+      name: "George Roy Hill",
+    },
+    {
+      id: 78,
+      name: "Jacques Audiard",
+    },
+    {
+      id: 79,
+      name: "Sergio Leone",
+    },
   ]);
 };

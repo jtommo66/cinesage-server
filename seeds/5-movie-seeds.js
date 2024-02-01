@@ -692,7 +692,7 @@ exports.seed = async function (knex) {
       image: "IronMonkey.jpg",
       trailer: "https://www.youtube.com/embed/B9-OQqbVkU8?si=Ux1iaYzyCijIIZ-t",
       synopsis:
-        "A martial artist/doctor steals from the corrupt authorities as a masked thief to give to the poor while another martial artist/doctor is forced to hunt him down. But a major threat unites them as a powerful and traitorous shaolin monk takes over the authorities.",
+        "A masked doctor steals from corrupt authorities to help the poor, while another doctor is compelled to track him down. Their common enemy emerges as a treacherous shaolin monk seizes control of the authorities.",
     },
     {
       id: 87,
@@ -741,6 +741,70 @@ exports.seed = async function (knex) {
       trailer: "https://www.youtube.com/embed/vgNI8VMcjTs?si=ZH9zLuIoDZF-am01",
       synopsis:
         "Identical twin brothers on vacation are faced with an unexpected battle when their getaway spot is invaded by mercenaries. Using their martial arts expertise, the twins wage war against the invaders in order to free their kidnapped girlfriends.",
+    },
+    {
+      id: 93,
+      title: "3:10 to Yuma",
+      image: "310ToYuma.jpeg",
+      trailer: "https://www.youtube.com/embed/jX1m45CwvJ8?si=XhiFCXISVzkAhqCA",
+      synopsis:
+        "A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.",
+    },
+    {
+      id: 94,
+      title: "The Ballad of Buster Scruggs",
+      image: "TheBalladofBusterScruggs.jpg",
+      trailer: "https://www.youtube.com/embed/_2PyxzSH1HM?si=BI_4i4i9G_2NhdBS",
+      synopsis:
+        "Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train, and a perverse pair of bounty hunters.",
+    },
+    {
+      id: 95,
+      title: "The Hateful Eight",
+      image: "TheHatefulEight.jpeg",
+      trailer: "https://www.youtube.com/embed/nIOmotayDMY?si=GFeM6gAarNL7RnNK",
+      synopsis:
+        "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
+    },
+    {
+      id: 96,
+      title: "True History of the Kelly Gang",
+      image: "TrueHistoryoftheKellyGang.jpeg",
+      trailer: "https://www.youtube.com/embed/BnJim7OK2kM?si=v_5hx8KEjymjTCwp",
+      synopsis:
+        "Australian bushranger Ned Kelly and his gang flee from authorities during the 1870s.",
+    },
+    {
+      id: 97,
+      title: "The Revenant",
+      image: "TheRevenant.jpeg",
+      trailer: "https://www.youtube.com/embed/LoebZZ8K5N0?si=qflknBs7dALB9sk6",
+      synopsis:
+        "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+    },
+    {
+      id: 98,
+      title: "Butch Cassidy and the Sundance Kid",
+      image: "ButchCassidyandtheSundanceKid.jpeg",
+      trailer: "https://www.youtube.com/embed/YdJW2UxvSFQ?si=FByQZcMGvr7C9Atb",
+      synopsis:
+        "In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels. After considering their options, they escape to South America.",
+    },
+    {
+      id: 99,
+      title: "The Sisters Brothers",
+      image: "TheSistersBrothers.jpeg",
+      trailer: "https://www.youtube.com/embed/3OwvqKwTKmE?si=2NhjM-YO4eHnxCEx",
+      synopsis:
+        "Eli and Charlie Sisters, an infamous duo of gunslinging assassins, chase a gold prospector and his unexpected ally in 1850s Oregon.",
+    },
+    {
+      id: 100,
+      title: "The Good, the Bad and the Ugly",
+      image: "TheGoodTheBadAndTheUgly.jpeg",
+      trailer: "https://www.youtube.com/embed/IFNUGzCOQoI?si=cdBERIqE68qym3-H",
+      synopsis:
+        "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
     },
   ]);
 };

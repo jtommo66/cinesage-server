@@ -1185,5 +1185,101 @@ exports.seed = async function (knex) {
       movie_id: 92,
       keyword_id: 17,
     },
+    {
+      movie_id: 93,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 93,
+      keyword_id: 38,
+    },
+    {
+      movie_id: 93,
+      keyword_id: 18,
+    },
+    {
+      movie_id: 94,
+      keyword_id: 37,
+    },
+    {
+      movie_id: 94,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 94,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 95,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 95,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 95,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 96,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 96,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 96,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 97,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 97,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 97,
+      keyword_id: 10,
+    },
+    {
+      movie_id: 98,
+      keyword_id: 8,
+    },
+    {
+      movie_id: 98,
+      keyword_id: 30,
+    },
+    {
+      movie_id: 98,
+      keyword_id: 10,
+    },
+    {
+      movie_id: 99,
+      keyword_id: 11,
+    },
+    {
+      movie_id: 99,
+      keyword_id: 3,
+    },
+    {
+      movie_id: 99,
+      keyword_id: 9,
+    },
+    {
+      movie_id: 100,
+      keyword_id: 17,
+    },
+    {
+      movie_id: 100,
+      keyword_id: 27,
+    },
+    {
+      movie_id: 100,
+      keyword_id: 10,
+    },
   ]);
 };
