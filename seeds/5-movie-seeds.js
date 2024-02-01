@@ -682,14 +682,14 @@ exports.seed = async function (knex) {
       id: 85,
       title: "The Mummy",
       image: "images/TheMummy.jpeg",
-      trailer: "www.youtube.com/embed/f7oKxlaUBac?si=JumUEjDMoadpLm6F",
+      trailer: "https://www.youtube.com/embed/f7oKxlaUBac?si=3kEF4thuwWg6iCE-",
       synopsis:
         "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
     },
     {
       id: 86,
       title: "Iron Monkey",
-      image: "IronMonkey.jpg",
+      image: "images/IronMonkey.jpeg",
       trailer: "https://www.youtube.com/embed/B9-OQqbVkU8?si=Ux1iaYzyCijIIZ-t",
       synopsis:
         "A masked doctor steals from corrupt authorities to help the poor, while another doctor is compelled to track him down. Their common enemy emerges as a treacherous shaolin monk seizes control of the authorities.",
@@ -697,7 +697,7 @@ exports.seed = async function (knex) {
     {
       id: 87,
       title: "Ip Man",
-      image: "IpMan.jpeg",
+      image: "images/IpMan.jpeg",
       trailer: "https://www.youtube.com/embed/RBYbqO_FUA4?si=XduJyuwzyiC8nvlX",
       synopsis:
         "During the Japanese invasion of China, a wealthy martial artist is forced to leave his home when his city is occupied. With little means of providing for themselves, Ip Man and the remaining members of the city must find a way to survive.",
@@ -705,7 +705,7 @@ exports.seed = async function (knex) {
     {
       id: 88,
       title: "The Raid",
-      image: "TheRaid.jpg",
+      image: "images/TheRaid.jpg",
       trailer: "https://www.youtube.com/embed/m6Q7KnXpNOg?si=YdtbIr6zngEOHw0M",
       synopsis:
         "A S.W.A.T. team becomes trapped in a tenement run by a ruthless mobster and his army of killers and thugs.",
@@ -713,7 +713,7 @@ exports.seed = async function (knex) {
     {
       id: 89,
       title: "The Karate Kid",
-      image: "KarateKid.jpeg",
+      image: "images/KarateKid.jpeg",
       trailer: "https://www.youtube.com/embed/r_8Rw16uscg?si=ezkxxQOoMK_Q9HFB",
       synopsis:
         "A martial arts master agrees to teach karate to a bullied teenager.",
@@ -721,7 +721,7 @@ exports.seed = async function (knex) {
     {
       id: 90,
       title: "Never Back Down",
-      image: "NeverBackDown.jpeg",
+      image: "images/NeverBackDown.jpeg",
       trailer: "https://www.youtube.com/embed/2tc-RPjZRm8?si=IhxTgWNyx36UbnFN",
       synopsis:
         "A frustrated and conflicted teenager arrives at a new high school to discover an underground fight club, and meets a classmate who begins to coerce him into fighting.",
@@ -729,7 +729,7 @@ exports.seed = async function (knex) {
     {
       id: 91,
       title: "Man of Tai Chi",
-      image: "ManOfTaiChi.jpeg",
+      image: "images/ManOfTaiChi.jpeg",
       trailer: "https://www.youtube.com/embed/ISxLxZysmgk?si=BNKiYSI_RyyzTZnd",
       synopsis:
         "A young martial artist's unparalleled Tai Chi skills land him in a highly lucrative underworld fight club.",
@@ -737,7 +737,7 @@ exports.seed = async function (knex) {
     {
       id: 92,
       title: "Twin Dragon Encounter",
-      image: "TwinDragonEncounter.jpg",
+      image: "images/TwinDragonEncounter.jpg",
       trailer: "https://www.youtube.com/embed/vgNI8VMcjTs?si=ZH9zLuIoDZF-am01",
       synopsis:
         "Identical twin brothers on vacation are faced with an unexpected battle when their getaway spot is invaded by mercenaries. Using their martial arts expertise, the twins wage war against the invaders in order to free their kidnapped girlfriends.",
@@ -745,7 +745,7 @@ exports.seed = async function (knex) {
     {
       id: 93,
       title: "3:10 to Yuma",
-      image: "310ToYuma.jpeg",
+      image: "images/310ToYuma.jpeg",
       trailer: "https://www.youtube.com/embed/jX1m45CwvJ8?si=XhiFCXISVzkAhqCA",
       synopsis:
         "A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.",
@@ -753,7 +753,7 @@ exports.seed = async function (knex) {
     {
       id: 94,
       title: "The Ballad of Buster Scruggs",
-      image: "TheBalladofBusterScruggs.jpg",
+      image: "images/TheBalladofBusterScruggs.jpg",
       trailer: "https://www.youtube.com/embed/_2PyxzSH1HM?si=BI_4i4i9G_2NhdBS",
       synopsis:
         "Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train, and a perverse pair of bounty hunters.",
@@ -761,7 +761,7 @@ exports.seed = async function (knex) {
     {
       id: 95,
       title: "The Hateful Eight",
-      image: "TheHatefulEight.jpeg",
+      image: "images/TheHatefulEight.jpeg",
       trailer: "https://www.youtube.com/embed/nIOmotayDMY?si=GFeM6gAarNL7RnNK",
       synopsis:
         "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
@@ -769,7 +769,7 @@ exports.seed = async function (knex) {
     {
       id: 96,
       title: "True History of the Kelly Gang",
-      image: "TrueHistoryoftheKellyGang.jpeg",
+      image: "images/TrueHistoryoftheKellyGang.jpeg",
       trailer: "https://www.youtube.com/embed/BnJim7OK2kM?si=v_5hx8KEjymjTCwp",
       synopsis:
         "Australian bushranger Ned Kelly and his gang flee from authorities during the 1870s.",
@@ -777,7 +777,7 @@ exports.seed = async function (knex) {
     {
       id: 97,
       title: "The Revenant",
-      image: "TheRevenant.jpeg",
+      image: "images/TheRevenant.jpeg",
       trailer: "https://www.youtube.com/embed/LoebZZ8K5N0?si=qflknBs7dALB9sk6",
       synopsis:
         "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
@@ -785,7 +785,7 @@ exports.seed = async function (knex) {
     {
       id: 98,
       title: "Butch Cassidy and the Sundance Kid",
-      image: "ButchCassidyandtheSundanceKid.jpeg",
+      image: "images/ButchCassidyandtheSundanceKid.jpeg",
       trailer: "https://www.youtube.com/embed/YdJW2UxvSFQ?si=FByQZcMGvr7C9Atb",
       synopsis:
         "In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels. After considering their options, they escape to South America.",
@@ -793,7 +793,7 @@ exports.seed = async function (knex) {
     {
       id: 99,
       title: "The Sisters Brothers",
-      image: "TheSistersBrothers.jpeg",
+      image: "images/TheSistersBrothers.jpeg",
       trailer: "https://www.youtube.com/embed/3OwvqKwTKmE?si=2NhjM-YO4eHnxCEx",
       synopsis:
         "Eli and Charlie Sisters, an infamous duo of gunslinging assassins, chase a gold prospector and his unexpected ally in 1850s Oregon.",
@@ -801,7 +801,7 @@ exports.seed = async function (knex) {
     {
       id: 100,
       title: "The Good, the Bad and the Ugly",
-      image: "TheGoodTheBadAndTheUgly.jpeg",
+      image: "images/TheGoodTheBadAndTheUgly.jpeg",
       trailer: "https://www.youtube.com/embed/IFNUGzCOQoI?si=cdBERIqE68qym3-H",
       synopsis:
         "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
