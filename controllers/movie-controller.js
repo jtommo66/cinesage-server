@@ -75,6 +75,13 @@ const singleMovie = async (req, res) => {
 
     const mappedKeywords = keywords.map((object) => object.keyword);
 
+    // const reviews = knex
+    //   .from("review")
+    //   .innerJoin("user", "user.id", "review.user_id")
+    //   .select("review", "name");
+
+    // console.log(reviews);
+
     const completedMovie = {
       ...movie,
       genre: mappedGenres,
