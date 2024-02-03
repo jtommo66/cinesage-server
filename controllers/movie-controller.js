@@ -98,8 +98,6 @@ const singleMovie = async (req, res) => {
       userName: review.user_name,
     }));
 
-    console.log(mappedReviews);
-
     const completedMovie = {
       ...movie,
       genre: mappedGenres,
