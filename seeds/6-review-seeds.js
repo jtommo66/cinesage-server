@@ -12,14 +12,14 @@ exports.seed = async function (knex) {
         "Every zombie movie should have a scene where the characters beat the zombies to death with a pool cue, to the beat of Don't Stop Me Now.",
       movie_id: 1,
       user_id: 9,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 2,
       review: "Most quotable movie ever made.",
       movie_id: 2,
       user_id: 10,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ exports.seed = async function (knex) {
         "Mr. Bean is directly responsible for multiple deaths AND the blowing up of Willem Dafoe — he has blood on his hands that shall never be cleansed",
       movie_id: 3,
       user_id: 3,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 5,
-      review: "Tarantino's casting call for this like 'bad bitches only'. ",
+      review: "Tarantino's casting call for this like 'bad bitches only'.",
       movie_id: 5,
       user_id: 5,
       rating: 4,
@@ -57,21 +57,21 @@ exports.seed = async function (knex) {
       review: "Just guys bein' dudes. Whats better?",
       movie_id: 7,
       user_id: 7,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 8,
       review: "PO-TA-TOES. BOIL 'EM, MASH 'EM, STICK 'EM IN A STEW.",
       movie_id: 8,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 9,
       review: "Best movie of the best trilogy of movies ever made.",
       movie_id: 9,
       user_id: 9,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 10,
@@ -79,7 +79,7 @@ exports.seed = async function (knex) {
         "The most jarring movie I've ever seen and that's without taking Javier Bardem's haircut into account",
       movie_id: 10,
       user_id: 2,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 11,
@@ -87,7 +87,7 @@ exports.seed = async function (knex) {
         "Line delivery was invented when Olivia Colman went 'Nothin' like a bit of girl on girl!'.",
       movie_id: 11,
       user_id: 1,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 12,
@@ -95,7 +95,7 @@ exports.seed = async function (knex) {
         "No-one can imitate North Korean news anchors like you has to be the rarest compliment ever.",
       movie_id: 12,
       user_id: 1,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 13,
@@ -109,7 +109,7 @@ exports.seed = async function (knex) {
       review: "How do I hire Wes Anderson to decorate my home?",
       movie_id: 14,
       user_id: 3,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 15,
@@ -117,7 +117,7 @@ exports.seed = async function (knex) {
         "I feel like I just ate a perfectly cooked meal by one of my favorite chefs. Just the right number of courses. Delicious.",
       movie_id: 15,
       user_id: 5,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 16,
@@ -125,14 +125,14 @@ exports.seed = async function (knex) {
         "Say ISLE OF DOGS slowly. Now say I LOVE DOGS slowly. I just blew your mind.",
       movie_id: 16,
       user_id: 6,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 17,
       review: "The Holy Trinity of Noses.",
       movie_id: 17,
       user_id: 7,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 18,
@@ -147,14 +147,14 @@ exports.seed = async function (knex) {
       review: "What just happened? Was that Tobey Maguire?",
       movie_id: 19,
       user_id: 5,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 20,
       review: "Jason Isaacs' introduction deserves its own Oscar.",
       movie_id: 20,
       user_id: 10,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 21,
@@ -162,14 +162,14 @@ exports.seed = async function (knex) {
         "I will never work in a professional kitchen. I need a drink after watching that.",
       movie_id: 21,
       user_id: 6,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 22,
       review: "Pasta and Scarlett Johansson - whats not to like?",
       movie_id: 22,
       user_id: 2,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 23,
@@ -183,7 +183,7 @@ exports.seed = async function (knex) {
       review: "My holes can take me anywhere.",
       movie_id: 24,
       user_id: 4,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 25,
@@ -191,14 +191,14 @@ exports.seed = async function (knex) {
         "I relate to woody harrelson in seven psychopaths and keanu reeves in john wick because I, too, would go on a killing rampage for a dog",
       movie_id: 25,
       user_id: 5,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 26,
       review: "And the oscar for most brutal death scene ever goes to...",
       movie_id: 26,
       user_id: 7,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 27,
@@ -206,14 +206,14 @@ exports.seed = async function (knex) {
         "more movies with frances mcdormand threatening to kill all rapists please",
       movie_id: 27,
       user_id: 7,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 28,
       review: "I will NOT leave my donkey outside when I'm sad",
       movie_id: 28,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 29,
@@ -228,14 +228,14 @@ exports.seed = async function (knex) {
       review: "How doth ye like yon apples?!",
       movie_id: 30,
       user_id: 10,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 31,
       review: "We demand a tangarine/lemon spinoff. NOW.",
       movie_id: 31,
       user_id: 8,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 32,
@@ -251,7 +251,7 @@ exports.seed = async function (knex) {
         "Did Al build his Toy Barn across the street from his apartment, or did he move into the apartment because it was across the street from his Toy Barn?",
       movie_id: 33,
       user_id: 8,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 34,
@@ -259,7 +259,7 @@ exports.seed = async function (knex) {
         "Can we do another barbie movie, but its this barbie and ken plz?",
       movie_id: 34,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 35,
@@ -267,34 +267,34 @@ exports.seed = async function (knex) {
         "Some of the most beautiful animation I've ever seen. The imagination and creativity behind this movie is absolutely mind-blowing. Step aside Pixar, Laika is taking over.",
       movie_id: 35,
       user_id: 8,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 36,
       review: "When Ryan Gosling said '...', man, I felt that.",
       movie_id: 36,
       user_id: 10,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 37,
       review: "idk man there were some pretty bad fellas in this one",
       movie_id: 37,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 38,
       review:
-        "the most realistic thing about this movie is that leo dates a 22 year old",
+        "the most realistic thing about this movie is that Leo dates a 22 year old",
       movie_id: 38,
       user_id: 10,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 39,
       review:
-        "take a shot every time leo reminds you he's a fedrul you ess maashull",
+        "Take a shot every time Leo reminds you he's a fedrul you ess maashull",
       movie_id: 39,
       user_id: 8,
       rating: 4,
@@ -302,7 +302,7 @@ exports.seed = async function (knex) {
     {
       id: 40,
       review:
-        "the monsters inc warehouse closet door chase scene > the inception hotel corridor fight scene",
+        "The Monsters Inc warehouse closet door chase scene > the inception hotel corridor fight scene",
       movie_id: 40,
       user_id: 10,
       rating: 4,
@@ -313,7 +313,7 @@ exports.seed = async function (knex) {
         "Perfect movie for eight-year-olds who are also college students.",
       movie_id: 41,
       user_id: 8,
-      rating: 4,
+      rating: 2.5,
     },
     {
       id: 42,
@@ -328,7 +328,7 @@ exports.seed = async function (knex) {
       review: "Just throw the whole damn kid away tbh",
       movie_id: 43,
       user_id: 8,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 44,
@@ -336,14 +336,14 @@ exports.seed = async function (knex) {
         "the population dropped to 12 million people due to the virus and people still watched shrek. iconic",
       movie_id: 44,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 45,
       review: "Jet Li so badass he made it rain",
       movie_id: 45,
       user_id: 8,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 46,
@@ -357,14 +357,14 @@ exports.seed = async function (knex) {
       review: "why was this filmed with a pink motorola razr",
       movie_id: 47,
       user_id: 8,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 48,
       review: "Aaaand as usual kids ruin everything.",
       movie_id: 48,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 49,
@@ -372,7 +372,7 @@ exports.seed = async function (knex) {
         "When the zombie apocalypse happens, I really home they aren't fast zombies... I hate fast zombies...",
       movie_id: 49,
       user_id: 8,
-      rating: 4,
+      rating: 2.5,
     },
     {
       id: 50,
@@ -386,7 +386,7 @@ exports.seed = async function (knex) {
       review: "Tallahassee carried...",
       movie_id: 51,
       user_id: 8,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 52,
@@ -394,7 +394,7 @@ exports.seed = async function (knex) {
         "I would never invite hitler to my movie premiere. That guy is bad news.",
       movie_id: 52,
       user_id: 10,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 53,
@@ -402,14 +402,14 @@ exports.seed = async function (knex) {
         "Me when christoph waltz smoothly talks his way out of death threatening situations: thats my aesthetic that is what i want to achieve",
       movie_id: 53,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 54,
       review: "David Bowie's Bulge The Movie.",
       movie_id: 54,
       user_id: 10,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 55,
@@ -424,7 +424,7 @@ exports.seed = async function (knex) {
       review: "As Owen Wilson would say: wow",
       movie_id: 56,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 57,
@@ -438,7 +438,7 @@ exports.seed = async function (knex) {
       review: "Everyone: David, don't touch it. David: Oops.",
       movie_id: 58,
       user_id: 10,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 59,
@@ -453,37 +453,37 @@ exports.seed = async function (knex) {
         "I wanted the full experience, so am going into this without drinking water for the last 24 hours. I'm very dehydrated. ",
       movie_id: 60,
       user_id: 10,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 61,
       review:
-        "I'm just like eloise because i too am lonely and spend most of my time thinking about anya taylor joy",
+        "I'm just like Eloise because i too am lonely and spend most of my time thinking about anya taylor joy",
       movie_id: 61,
       user_id: 8,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 62,
       review:
-        "I love Paul Dano but i also love watching people beat the shit out of Paul Dano",
+        "I love Paul Dano but I also love watching people beat the shit out of Paul Dano",
       movie_id: 62,
       user_id: 10,
-      rating: 4,
+      rating: 4.5,
     },
     {
       id: 63,
       review: "Where the hell was Bugs Bunny?",
       movie_id: 63,
       user_id: 8,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 64,
       review: "Biden should do this with Fortnite.",
       movie_id: 64,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 65,
@@ -499,7 +499,7 @@ exports.seed = async function (knex) {
         "I hate to say I hope I dont sound ridiculous I dont know who Le Mans is. He could be walking down the street, I wouldnt know a thing. Sorry to Le Mans.",
       movie_id: 66,
       user_id: 10,
-      rating: 4,
+      rating: 2,
     },
     {
       id: 67,
@@ -521,7 +521,7 @@ exports.seed = async function (knex) {
       review: "They ain't even catch any foxes... Michael Scott looks bad too",
       movie_id: 69,
       user_id: 8,
-      rating: 4,
+      rating: 2.5,
     },
     {
       id: 70,
@@ -544,7 +544,7 @@ exports.seed = async function (knex) {
         "Mediocre dramas based on true stories that nobody under the age of 50 will see are the backbone of the uk film industry",
       movie_id: 72,
       user_id: 10,
-      rating: 4,
+      rating: 2,
     },
     {
       id: 73,
@@ -595,7 +595,7 @@ exports.seed = async function (knex) {
       review: "Who isn't in this movie?",
       movie_id: 79,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 80,
@@ -616,7 +616,7 @@ exports.seed = async function (knex) {
       review: "Wait, where was David Bowie?",
       movie_id: 82,
       user_id: 10,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 83,
@@ -645,7 +645,7 @@ exports.seed = async function (knex) {
         "Moral of the movie - if you kick cool enough it's fine to kick a girl",
       movie_id: 86,
       user_id: 10,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 87,
@@ -653,7 +653,7 @@ exports.seed = async function (knex) {
         "This movie has some of the most satisfying punching sound effects ever",
       movie_id: 87,
       user_id: 8,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 88,
@@ -674,15 +674,15 @@ exports.seed = async function (knex) {
       review: "To be fair, he literally never backs down...",
       movie_id: 90,
       user_id: 10,
-      rating: 4,
+      rating: 1.5,
     },
     {
       id: 91,
       review:
-        "keanu reeves truly sees martial arts as an art, and that love pours out of every frame of this movie",
+        "Keanu Reeves truly sees martial arts as an art, and that love pours out of every frame of this movie",
       movie_id: 91,
       user_id: 8,
-      rating: 4,
+      rating: 3,
     },
     {
       id: 92,
@@ -712,7 +712,7 @@ exports.seed = async function (knex) {
       review: "Are we sure tarantino made this film? There were no feet shots",
       movie_id: 95,
       user_id: 8,
-      rating: 4,
+      rating: 5,
     },
     {
       id: 96,
@@ -720,7 +720,7 @@ exports.seed = async function (knex) {
         "Every man who meets Ned Kelly: no homo but I would literally kill 100 cops for you",
       movie_id: 96,
       user_id: 10,
-      rating: 4,
+      rating: 2.5,
     },
     {
       id: 97,
@@ -728,7 +728,7 @@ exports.seed = async function (knex) {
         "I got a lot going on in my life right now, but at least I'm not this dude.",
       movie_id: 97,
       user_id: 8,
-      rating: 4,
+      rating: 3.5,
     },
     {
       id: 98,

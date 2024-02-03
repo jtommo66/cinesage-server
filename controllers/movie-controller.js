@@ -92,7 +92,13 @@ const singleMovie = async (req, res) => {
       .innerJoin("user", "review.user_id", "user.id")
       .where({ "movie.id": req.params.id });
 
-    const mappedReviews = reviews.map((review) => review.review);
+    const mappedReviews = reviews.map((review) => ({
+      review: review.review,
+      rating: review.rating,
+      userName: review.user_name,
+    }));
+
+    console.log(mappedReviews);
 
     const completedMovie = {
       ...movie,
