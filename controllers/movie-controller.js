@@ -75,18 +75,31 @@ const singleMovie = async (req, res) => {
 
     const mappedKeywords = keywords.map((object) => object.keyword);
 
-    // const reviews = knex
-    //   .from("review")
-    //   .innerJoin("user", "user.id", "review.user_id")
-    //   .select("review", "name");
+    const reviews = await knex
+      .select(
+        "movie.id",
+        "movie.title",
+        "movie.image",
+        "movie.trailer",
+        "movie.synopsis",
+        "review.review",
+        "review.user_id",
+        "review.rating",
+        "user.name as user_name"
+      )
+      .from("movie")
+      .innerJoin("review", "movie.id", "review.movie_id")
+      .innerJoin("user", "review.user_id", "user.id")
+      .where({ "movie.id": req.params.id });
 
-    // console.log(reviews);
+    const mappedReviews = reviews.map((review) => review.review);
 
     const completedMovie = {
       ...movie,
       genre: mappedGenres,
       director: mappedDirectors,
       keyword: mappedKeywords,
+      review: mappedReviews,
     };
 
     res.json(completedMovie);
