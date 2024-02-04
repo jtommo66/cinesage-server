@@ -1,13 +1,23 @@
 # CineSage
 
-Possible logo examples
-![](logo1.png)
-![](logo2.png)
-![](logo3.png)
-
 ## Overview
 
 An app for film lovers that will help users to select, rate and review a movies.
+
+### Installation
+
+To get started
+
+- Run 'npm i' in the terminal.
+- Configure the .env file, using .env.sample
+  - DB_USER
+  - DB_PASSWORD
+  - DB_HOST
+  - PORT
+  - API_URL
+- Run 'npm run db:migrate' in the terminal
+- Run 'npm run db:seed' in the terminal
+- Run 'npm start' in the terminal
 
 ### Problem
 
