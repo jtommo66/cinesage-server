@@ -211,4 +211,23 @@ const keywordMovieList = async (req, res) => {
   }
 };
 
-module.exports = { singleMovie, movieList, genreMovieList, keywordMovieList };
+const newReview = async (req, res) => {
+  try {
+    const result = await knex("review").insert(req.body);
+    const postedReview = await knex("review")
+      .where({ id: result[0] })
+      .first()
+      .select("review", "rating");
+    res.json(postedReview);
+  } catch (error) {
+    res.status(500).json({ message: `Unable to publish review: ${error}` });
+  }
+};
+
+module.exports = {
+  singleMovie,
+  movieList,
+  genreMovieList,
+  keywordMovieList,
+  newReview,
+};
