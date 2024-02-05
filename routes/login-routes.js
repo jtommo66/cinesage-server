@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const bcrypt = require("bcrypt");
-const knex = require("knex")(require("../"));
 
-router.route("/").get(login);
+router.route("/register").post(register);
+router.route("/").post(login);
 
 module.exports = router;
