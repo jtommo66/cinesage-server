@@ -4,6 +4,8 @@ require("dotenv").config();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+const JWT_SECRET = process.env.JWT_KEY;
+
 const register = async (req, res) => {
   const { name, email, password } = req.body;
 
@@ -20,7 +22,7 @@ const register = async (req, res) => {
   };
 
   try {
-    await knex("users").insert(newUser);
+    await knex("user").insert(newUser);
     return res.status(201).json(newUser);
   } catch (error) {
     console.error(error);
@@ -40,20 +42,16 @@ const login = async (req, res) => {
   }
 
   try {
-    const user = await knex("users").where({ email: email }).first();
+    const user = await knex("user").where({ email: email }).first();
     const passwordCorrect = bcrypt.compareSync(password, user.password);
 
     if (!passwordCorrect) {
       return res.status(400).send("Password Incorrect");
     }
 
-    const token = jwt.sign(
-      { id: user.id, email: user.email },
-      process.env.JWT_SECRET,
-      {
-        expiresIn: "24h",
-      }
-    );
+    const token = jwt.sign({ id: user.id, email: user.email }, JWT_SECRET, {
+      expiresIn: "24h",
+    });
     return res.json({ token });
   } catch (error) {
     console.error(error);
