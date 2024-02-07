@@ -55,7 +55,6 @@ People have access to an abundance of movies but are bad at making quick decisio
         - react
         - react-router
         - axios
-        - react-custom-roulette - https://www.npmjs.com/package/react-custom-roulette
         - ReactJs Popup - https://react-popup.elazizi.com/getting-started/
         - React Bootstrap - https://react-bootstrap.netlify.app/
     - Server Libraries
