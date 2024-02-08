@@ -16,7 +16,7 @@ exports.seed = async function (knex) {
     {
       id: 2,
       title: "Superbad",
-      image: "images/Superbad.jpg",
+      image: "images/superbad.jpg",
       trailer: "https://www.youtube.com/embed/4eaZ_48ZYog?si=GMrJ7eTAgI1nwhWV",
       synopsis:
         "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
