@@ -16,7 +16,7 @@ exports.seed = async function (knex) {
     {
       id: 2,
       title: "Superbad",
-      image: "images/Superbad.jpg",
+      image: "images/Superbad.jpeg",
       trailer: "https://www.youtube.com/embed/4eaZ_48ZYog?si=GMrJ7eTAgI1nwhWV",
       synopsis:
         "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
@@ -785,7 +785,7 @@ exports.seed = async function (knex) {
     {
       id: 98,
       title: "Butch Cassidy and the Sundance Kid",
-      image: "images/ButchCassidyandtheSundanceKid.jpeg",
+      image: "images/ButchCassidy.jpg",
       trailer: "https://www.youtube.com/embed/YdJW2UxvSFQ?si=FByQZcMGvr7C9Atb",
       synopsis:
         "In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels. After considering their options, they escape to South America.",

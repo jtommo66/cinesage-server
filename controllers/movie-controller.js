@@ -8,9 +8,9 @@ const movieList = async (req, res) => {
     const mappedMovies = await Promise.all(
       movies.map(async (movie) => {
         if (movie.image) {
-          movie.image = `${process.env.API_URL}:${
-            process.env.PORT
-          }/images/${movie.image.split("/").pop()}`;
+          movie.image = `${process.env.API_URL}/images/${movie.image
+            .split("/")
+            .pop()}`;
         }
 
         const genres = await knex("movie_genre")
@@ -52,7 +52,7 @@ const singleMovie = async (req, res) => {
       .first()
       .select("id", "title", "image", "trailer", "synopsis");
 
-    movie.image = `${process.env.API_URL}:${process.env.PORT}/${movie.image}`;
+    movie.image = `${process.env.API_URL}/${movie.image}`;
 
     const genres = await knex("movie_genre")
       .join("genre", "movie_genre.genre_id", "genre.id")
@@ -122,9 +122,9 @@ const genreMovieList = async (req, res) => {
     const mappedMovies = await Promise.all(
       movies.map(async (movie) => {
         if (movie.image) {
-          movie.image = `${process.env.API_URL}:${
-            process.env.PORT
-          }/images/${movie.image.split("/").pop()}`;
+          movie.image = `${process.env.API_URL}/images/${movie.image
+            .split("/")
+            .pop()}`;
         }
 
         const genres = await knex("movie_genre")
@@ -170,9 +170,9 @@ const keywordMovieList = async (req, res) => {
     const mappedMovies = await Promise.all(
       movies.map(async (movie) => {
         if (movie.image) {
-          movie.image = `${process.env.API_URL}:${
-            process.env.PORT
-          }/images/${movie.image.split("/").pop()}`;
+          movie.image = `${process.env.API_URL}/images/${movie.image
+            .split("/")
+            .pop()}`;
         }
 
         const genres = await knex("movie_genre")
@@ -211,4 +211,23 @@ const keywordMovieList = async (req, res) => {
   }
 };
 
-module.exports = { singleMovie, movieList, genreMovieList, keywordMovieList };
+const newReview = async (req, res) => {
+  try {
+    const result = await knex("review").insert(req.body);
+    const postedReview = await knex("review")
+      .where({ id: result[0] })
+      .first()
+      .select("review", "rating");
+    res.json(postedReview);
+  } catch (error) {
+    res.status(500).json({ message: `Unable to publish review: ${error}` });
+  }
+};
+
+module.exports = {
+  singleMovie,
+  movieList,
+  genreMovieList,
+  keywordMovieList,
+  newReview,
+};
